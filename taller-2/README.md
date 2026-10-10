@@ -2,7 +2,6 @@
 
 **FastAPI + MQTT + Pydantic + SQLAlchemy ORM + PostgreSQL**
 
-
 ---
 
 ## 1. Información general
