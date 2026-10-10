@@ -295,8 +295,11 @@ Resumen automático de las 21 solicitudes HTTP: [`evidencias/resultados_endpoint
 | `6bfdf3d` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: consumidor MQTT con validaciones de negocio y almacenamiento |
 | `163f1e9` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: endpoints FastAPI de sensores, magnitudes y mediciones |
 | `d5ba834` | 2026-10-10 14:51 | Mauricio Jojoa | Taller 2: scripts de prueba para rechazos MQTT, endpoints y verificacion en la base |
-| `ab4b4af` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: evidencias de recoleccion MQTT (24,5 min), rechazos, verificacion en base y pruebas HTTP |
-| `e54aaae` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: informe README del taller e indice de ramas en la raiz |
+| `015170d` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: evidencias de recoleccion MQTT (24,5 min), rechazos, verificacion en base y pruebas HTTP |
+| `f637f21` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: informe README del taller e indice de ramas en la raiz |
+| `153c4c1` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: historial de commits en el informe y detalle de mensajes rechazados reales |
+| `8bfeb6e` | 2026-10-10 15:24 | Mauricio Jojoa | Taller 2: se sube el registro MQTT como .txt (el .gitignore excluia los .log) |
+| `ce95567` | 2026-10-10 15:35 | Mauricio Jojoa | Taller 2: ajuste del README |
 
 Historial completo: https://github.com/mauricioj97/Apliaciones-y-Servicios-Web/commits/taller-2
 
