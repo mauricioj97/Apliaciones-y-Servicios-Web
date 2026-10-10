@@ -68,3 +68,4 @@ temp/
 *.bak
 *.cache
 registros/
+registros_*.txt
