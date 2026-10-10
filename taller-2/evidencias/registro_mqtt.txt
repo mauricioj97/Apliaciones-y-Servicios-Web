@@ -1,0 +1,592 @@
+2026-10-10 14:48:55,558 INFO Conectado al broker emqx.coriotlab.co:1883
+2026-10-10 14:48:55,558 INFO Suscrito al topico: iot/sensors/GAS-006/data
+2026-10-10 14:48:56,009 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:48:55Z", "measurements": {"co2": {"value": 1168.91, "unit": "ppm"}, "temperature": {"value": 19.34, "unit": "C"}}}
+2026-10-10 14:48:57,177 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:48:55+00:00 | id=110745 co2=1168.9100, id=110746 temperature=19.3400
+2026-10-10 14:49:01,009 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:01Z", "measurements": {"co2": {"value": 907.01, "unit": "ppm"}, "temperature": {"value": 31.8, "unit": "C"}}}
+2026-10-10 14:49:01,546 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:01+00:00 | id=110752 co2=907.0100, id=110753 temperature=31.8000
+2026-10-10 14:49:06,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:06Z", "measurements": {"co2": {"value": 1069.05, "unit": "ppm"}, "temperature": {"value": 25.06, "unit": "C"}}}
+2026-10-10 14:49:06,553 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:06+00:00 | id=110759 co2=1069.0500, id=110760 temperature=25.0600
+2026-10-10 14:49:11,000 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:10Z", "measurements": {"co2": {"value": 462.92, "unit": "ppm"}, "temperature": {"value": 27.91, "unit": "C"}}}
+2026-10-10 14:49:11,530 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:10+00:00 | id=110766 co2=462.9200, id=110767 temperature=27.9100
+2026-10-10 14:49:15,995 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:15Z", "measurements": {"co2": {"value": 476.02, "unit": "ppm"}, "temperature": {"value": 26.69, "unit": "C"}}}
+2026-10-10 14:49:16,519 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:15+00:00 | id=110773 co2=476.0200, id=110774 temperature=26.6900
+2026-10-10 14:49:21,002 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:20Z", "measurements": {"co2": {"value": 1316.85, "unit": "ppm"}, "temperature": {"value": 23.01, "unit": "C"}}}
+2026-10-10 14:49:21,543 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:20+00:00 | id=110780 co2=1316.8500, id=110781 temperature=23.0100
+2026-10-10 14:49:26,004 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:25Z", "measurements": {"co2": {"value": 1423.03, "unit": "INVALID_UNIT"}, "temperature": {"value": 21.29, "unit": "C"}}}
+2026-10-10 14:49:26,188 WARNING [RECHAZADO] Unidad incorrecta en 'co2': llego 'INVALID_UNIT' y se esperaba 'ppm' | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:25Z", "measurements": {"co2": {"value": 1423.03, "unit": "INVALID_UNIT"}, "temperature": {"value": 21.29, "unit": "C"}}}
+2026-10-10 14:49:30,988 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:30Z", "measurements": {"co2": {"value": 856.5, "unit": "ppm"}, "temperature": {"value": 20.75}}}
+2026-10-10 14:49:30,989 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.temperature.unit: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:30Z", "measurements": {"co2": {"value": 856.5, "unit": "ppm"}, "temperature": {"value": 20.75}}}
+2026-10-10 14:49:36,000 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:35Z", "measurements": {"co2": {"value": 1203.97, "unit": "ppm"}, "temperature": {"value": 30.74, "unit": "C"}}}
+2026-10-10 14:49:36,531 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:35+00:00 | id=110797 co2=1203.9700, id=110798 temperature=30.7400
+2026-10-10 14:49:41,030 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:41Z", "measurements": {"co2": {"value": 1133.12, "unit": "ppm"}, "temperature": {"value": 25.51, "unit": "C"}}}
+2026-10-10 14:49:41,568 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:41+00:00 | id=110804 co2=1133.1200, id=110805 temperature=25.5100
+2026-10-10 14:49:46,006 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:45Z", "measurements": {"co2": {"value": 852.05, "unit": "ppm"}, "temperature": {"value": 28.67, "unit": "C"}}}
+2026-10-10 14:49:46,532 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:45+00:00 | id=110811 co2=852.0500, id=110812 temperature=28.6700
+2026-10-10 14:49:50,998 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:50Z", "measurements": {"co2": {"value": 908.69, "unit": "ppm"}, "temperature": {"value": 21.75, "unit": "C"}}}
+2026-10-10 14:49:51,580 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:50+00:00 | id=110818 co2=908.6900, id=110819 temperature=21.7500
+2026-10-10 14:49:56,010 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:49:56Z", "measurements": {"co2": {"value": 352.55, "unit": "ppm"}, "temperature": {"value": 20.04, "unit": "C"}}}
+2026-10-10 14:49:56,534 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:49:56+00:00 | id=110825 co2=352.5500, id=110826 temperature=20.0400
+2026-10-10 14:50:01,003 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:00Z", "measurements": {"co2": {"value": 1406.19, "unit": "ppm"}, "temperature": {"value": 21.5, "unit": "C"}}}
+2026-10-10 14:50:01,699 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:00+00:00 | id=110829 co2=1406.1900, id=110830 temperature=21.5000
+2026-10-10 14:50:06,004 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:05Z", "measurements": {"co2": {"value": 608.37, "unit": "ppm"}, "temperature": {"value": 18.49, "unit": "C"}}}
+2026-10-10 14:50:06,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:05+00:00 | id=110836 co2=608.3700, id=110837 temperature=18.4900
+2026-10-10 14:50:11,011 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:11Z", "measurements": {"co2": {"value": 730.65, "unit": "ppm"}, "temperature": {"value": 18.4, "unit": "C"}}}
+2026-10-10 14:50:11,530 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:11+00:00 | id=110843 co2=730.6500, id=110844 temperature=18.4000
+2026-10-10 14:50:16,015 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:16Z", "measurements": {"co2": {"value": 454.42, "unit": "ppm"}, "temperature": {"value": 23.9, "unit": "C"}}}
+2026-10-10 14:50:16,539 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:16+00:00 | id=110850 co2=454.4200, id=110851 temperature=23.9000
+2026-10-10 14:50:21,016 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:21Z", "measurements": {"co2": {"value": 1109.09, "unit": "ppm"}, "temperature": {"value": 21.45, "unit": "C"}}}
+2026-10-10 14:50:21,534 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:21+00:00 | id=110857 co2=1109.0900, id=110858 temperature=21.4500
+2026-10-10 14:50:25,999 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:25Z", "measurements": {"co2": {"value": 1036.08, "unit": "ppm"}, "temperature": {"value": 25.47, "unit": "C"}}}
+2026-10-10 14:50:26,519 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:25+00:00 | id=110864 co2=1036.0800, id=110865 temperature=25.4700
+2026-10-10 14:50:30,993 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:30Z", "measurements": {"co2": {"value": 577.31, "unit": "ppm"}, "temperature": {"value": 26.64, "unit": "C"}}}
+2026-10-10 14:50:31,517 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:30+00:00 | id=110871 co2=577.3100, id=110872 temperature=26.6400
+2026-10-10 14:50:36,013 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:36Z", "measurements": {"co2": {"value": 1448.02, "unit": "ppm"}, "temperature": {"value": 29.26, "unit": "C"}}}
+2026-10-10 14:50:36,541 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:36+00:00 | id=110878 co2=1448.0200, id=110879 temperature=29.2600
+2026-10-10 14:50:41,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:41Z", "measurements": {"co2": {"value": 478.37, "unit": "ppm"}, "temperature": {"value": 29.37, "unit": "C"}}}
+2026-10-10 14:50:41,550 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:41+00:00 | id=110885 co2=478.3700, id=110886 temperature=29.3700
+2026-10-10 14:50:46,023 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:46Z", "measurements": {"co2": {"value": 1143.18, "unit": "ppm"}, "temperature": {"value": 22.93, "unit": "C"}}}
+2026-10-10 14:50:46,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:46+00:00 | id=110892 co2=1143.1800, id=110893 temperature=22.9300
+2026-10-10 14:50:51,002 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:50Z", "measurements": {"co2": {"value": 1073.32, "unit": "ppm"}, "temperature": {"value": 25.97, "unit": "C"}}}
+2026-10-10 14:50:51,521 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:50+00:00 | id=110899 co2=1073.3200, id=110900 temperature=25.9700
+2026-10-10 14:50:56,008 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:50:56Z", "measurements": {"co2": {"value": 1318.41, "unit": "ppm"}, "temperature": {"value": 19.32, "unit": "C"}}}
+2026-10-10 14:50:56,539 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:50:56+00:00 | id=110906 co2=1318.4100, id=110907 temperature=19.3200
+2026-10-10 14:51:01,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:01Z", "measurements": {"co2": {"value": 679.86, "unit": "ppm"}, "temperature": {"value": 30.69, "unit": "C"}}}
+2026-10-10 14:51:01,562 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:01+00:00 | id=110913 co2=679.8600, id=110914 temperature=30.6900
+2026-10-10 14:51:06,010 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:06Z", "measurements": {"co2": {"value": 989.0, "unit": "ppm"}, "temperature": {"value": 29.2, "unit": "C"}}}
+2026-10-10 14:51:06,540 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:06+00:00 | id=110920 co2=989.0000, id=110921 temperature=29.2000
+2026-10-10 14:51:10,996 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:10Z", "measurements": {"co2": {"value": 850.76, "unit": "ppm"}, "temperature": {"value": 25.93, "unit": "C"}}}
+2026-10-10 14:51:11,516 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:10+00:00 | id=110927 co2=850.7600, id=110928 temperature=25.9300
+2026-10-10 14:51:16,006 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:16Z", "measurements": {"co2": {"value": 1002.22, "unit": "ppm"}, "temperature": {"value": 31.76, "unit": "C"}}}
+2026-10-10 14:51:16,542 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:16+00:00 | id=110934 co2=1002.2200, id=110935 temperature=31.7600
+2026-10-10 14:51:21,008 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:21Z", "measurements": {"co2": {"value": 891.56, "unit": "ppm"}, "temperature": {"value": 27.17, "unit": "C"}}}
+2026-10-10 14:51:21,539 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:21+00:00 | id=110941 co2=891.5600, id=110942 temperature=27.1700
+2026-10-10 14:51:26,016 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:26Z", "measurements": {"co2": {"value": 1115.8, "unit": "ppm"}, "temperature": {"value": 31.91, "unit": "C"}}}
+2026-10-10 14:51:26,550 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:26+00:00 | id=110948 co2=1115.8000, id=110949 temperature=31.9100
+2026-10-10 14:51:31,002 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:30Z", "measurements": {"co2": {"value": 1360.63, "unit": "ppm"}, "temperature": {"value": 26.53, "unit": "C"}}}
+2026-10-10 14:51:31,529 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:30+00:00 | id=110955 co2=1360.6300, id=110956 temperature=26.5300
+2026-10-10 14:51:35,999 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:35Z", "measurements": {"co2": {"value": 1142.13, "unit": "ppm"}, "temperature": {"value": 25.23, "unit": "C"}}}
+2026-10-10 14:51:36,521 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:35+00:00 | id=110962 co2=1142.1300, id=110963 temperature=25.2300
+2026-10-10 14:51:41,000 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:40Z", "measurements": {"co2": {"value": 1017.92, "unit": "ppm"}, "temperature": {"value": 28.84, "unit": "C"}}}
+2026-10-10 14:51:41,528 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:40+00:00 | id=110969 co2=1017.9200, id=110970 temperature=28.8400
+2026-10-10 14:51:46,015 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:46Z", "measurements": {"co2": {"value": 1126.15, "unit": "ppm"}, "temperature": {"value": 25.56, "unit": "C"}}}
+2026-10-10 14:51:46,543 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:46+00:00 | id=110976 co2=1126.1500, id=110977 temperature=25.5600
+2026-10-10 14:51:51,016 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:51Z", "measurements": {"co2": {"value": 880.64, "unit": "ppm"}, "temperature": {"value": 22.93, "unit": "C"}}}
+2026-10-10 14:51:51,545 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:51+00:00 | id=110983 co2=880.6400, id=110984 temperature=22.9300
+2026-10-10 14:51:56,015 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:51:56Z", "measurements": {"co2": {"value": 844.12, "unit": "ppm"}, "temperature": {"value": 24.44, "unit": "C"}}}
+2026-10-10 14:51:56,531 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:51:56+00:00 | id=110990 co2=844.1200, id=110991 temperature=24.4400
+2026-10-10 14:52:01,023 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:01Z", "measurements": {"co2": {"value": 704.28, "unit": "ppm"}, "temperature": {"value": 29.43, "unit": "C"}}}
+2026-10-10 14:52:01,574 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:01+00:00 | id=110997 co2=704.2800, id=110998 temperature=29.4300
+2026-10-10 14:52:06,018 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:06Z", "measurements": {"co2": {"value": 763.65, "unit": "ppm"}, "temperature": {"value": 21.42, "unit": "C"}}}
+2026-10-10 14:52:06,550 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:06+00:00 | id=111004 co2=763.6500, id=111005 temperature=21.4200
+2026-10-10 14:52:11,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:11Z", "measurements": {"co2": {"value": 628.1, "unit": "ppm"}, "temperature": {"value": 22.11, "unit": "C"}}}
+2026-10-10 14:52:11,538 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:11+00:00 | id=111023 co2=628.1000, id=111024 temperature=22.1100
+2026-10-10 14:52:16,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:16Z", "measurements": {"co2": {"value": 1482.95, "unit": "ppm"}, "temperature": {"value": 30.17, "unit": "C"}}}
+2026-10-10 14:52:16,534 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:16+00:00 | id=111033 co2=1482.9500, id=111034 temperature=30.1700
+2026-10-10 14:52:21,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:21Z", "measurements": {"co2": {"value": 625.83, "unit": "ppm"}, "temperature": {"value": 21.05, "unit": "C"}}}
+2026-10-10 14:52:21,542 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:21+00:00 | id=111043 co2=625.8300, id=111044 temperature=21.0500
+2026-10-10 14:52:26,006 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:26Z", "measurements": {"co2": {"value": 1396.95, "unit": "ppm"}, "temperature": {"value": 25.09, "unit": "C"}}}
+2026-10-10 14:52:26,524 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:26+00:00 | id=111053 co2=1396.9500, id=111054 temperature=25.0900
+2026-10-10 14:52:31,007 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:31Z", "measurements": {"co2": {"value": 1362.38, "unit": "ppm"}, "temperature": {"value": 28.87, "unit": "C"}}}
+2026-10-10 14:52:31,532 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:31+00:00 | id=111063 co2=1362.3800, id=111064 temperature=28.8700
+2026-10-10 14:52:36,012 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:36Z", "measurements": {"co2": {"value": 430.41, "unit": "ppm"}, "temperature": {"value": 19.68, "unit": "C"}}}
+2026-10-10 14:52:36,541 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:36+00:00 | id=111070 co2=430.4100, id=111071 temperature=19.6800
+2026-10-10 14:52:41,016 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:41Z", "measurements": {"co2": {"value": 957.52, "unit": "ppm"}, "temperature": {"value": 23.22, "unit": "C"}}}
+2026-10-10 14:52:41,548 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:41+00:00 | id=111077 co2=957.5200, id=111078 temperature=23.2200
+2026-10-10 14:52:46,021 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:46Z", "measurements": {"co2": {"value": 1134.37, "unit": "ppm"}, "temperature": {"value": 23.94, "unit": "C"}}}
+2026-10-10 14:52:46,549 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:46+00:00 | id=111084 co2=1134.3700, id=111085 temperature=23.9400
+2026-10-10 14:52:50,999 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:50Z", "measurements": {"co2": {"value": 1393.02, "unit": "ppm"}, "temperature": {"value": 22.35, "unit": "C"}}}
+2026-10-10 14:52:51,528 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:50+00:00 | id=111088 co2=1393.0200, id=111089 temperature=22.3500
+2026-10-10 14:52:56,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:52:56Z", "measurements": {"co2": {"value": 925.17, "unit": "ppm"}, "temperature": {"value": 26.53, "unit": "C"}}}
+2026-10-10 14:52:56,562 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:52:56+00:00 | id=111095 co2=925.1700, id=111096 temperature=26.5300
+2026-10-10 14:53:01,021 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:01Z", "measurements": {"co2": {"value": 571.6, "unit": "ppm"}, "temperature": {"value": 18.47, "unit": "C"}}}
+2026-10-10 14:53:01,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:01+00:00 | id=111102 co2=571.6000, id=111103 temperature=18.4700
+2026-10-10 14:53:06,002 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:05Z", "measurements": {"co2": {"value": 454.0, "unit": "ppm"}, "temperature": {"value": 26.58, "unit": "C"}}}
+2026-10-10 14:53:06,543 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:05+00:00 | id=111109 co2=454.0000, id=111110 temperature=26.5800
+2026-10-10 14:53:11,016 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:11Z", "measurements": {"co2": {"value": "730.94", "unit": "ppm"}, "temperature": {"value": 28.3, "unit": "C"}}}
+2026-10-10 14:53:11,016 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:11Z", "measurements": {"co2": {"value": "730.94", "unit": "ppm"}, "temperature": {"value": 28.3, "unit": "C"}}}
+2026-10-10 14:53:16,031 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:16Z", "measurements": {"co2": {"value": 618.61, "unit": "ppm"}, "temperature": {"value": 20.7, "unit": "C"}}}
+2026-10-10 14:53:16,576 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:16+00:00 | id=111121 co2=618.6100, id=111122 temperature=20.7000
+2026-10-10 14:53:21,006 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:21Z", "measurements": {"co2": {"value": 645.03, "unit": "ppm"}, "temperature": {"value": 28.19, "unit": "C"}}}
+2026-10-10 14:53:21,539 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:21+00:00 | id=111128 co2=645.0300, id=111129 temperature=28.1900
+2026-10-10 14:53:26,007 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:26Z", "measurements": {"co2": {"value": 569.11, "unit": "ppm"}, "temperature": {"value": 31.92, "unit": "C"}}}
+2026-10-10 14:53:26,533 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:26+00:00 | id=111135 co2=569.1100, id=111136 temperature=31.9200
+2026-10-10 14:53:31,023 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:31Z", "measurements": {"co2": {"value": 387.18, "unit": "ppm"}, "temperature": {"value": 18.83, "unit": "C"}}}
+2026-10-10 14:53:31,543 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:31+00:00 | id=111142 co2=387.1800, id=111143 temperature=18.8300
+2026-10-10 14:53:36,024 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:36Z", "measurements": {"co2": {"value": 786.1}, "temperature": {"value": 30.75, "unit": "C"}}}
+2026-10-10 14:53:36,024 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.unit: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:36Z", "measurements": {"co2": {"value": 786.1}, "temperature": {"value": 30.75, "unit": "C"}}}
+2026-10-10 14:53:41,005 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:41Z", "measurements": {"co2": {"value": 807.59, "unit": "ppm"}, "temperature": {"value": 27.96, "unit": "C"}}}
+2026-10-10 14:53:41,535 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:41+00:00 | id=111152 co2=807.5900, id=111153 temperature=27.9600
+2026-10-10 14:53:46,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:46Z", "measurements": {"co2": {"value": 359.0, "unit": "ppm"}, "temperature": {"value": 31.13, "unit": "C"}}}
+2026-10-10 14:53:46,541 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:46+00:00 | id=111159 co2=359.0000, id=111160 temperature=31.1300
+2026-10-10 14:53:51,021 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:51Z", "measurements": {"co2": {"value": 488.8, "unit": "ppm"}, "temperature": {"value": 18.83, "unit": "C"}}}
+2026-10-10 14:53:51,538 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:51+00:00 | id=111166 co2=488.8000, id=111167 temperature=18.8300
+2026-10-10 14:53:56,021 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:53:56Z", "measurements": {"co2": {"value": 1318.07, "unit": "ppm"}, "temperature": {"value": 26.07, "unit": "C"}}}
+2026-10-10 14:53:56,547 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:53:56+00:00 | id=111170 co2=1318.0700, id=111171 temperature=26.0700
+2026-10-10 14:54:01,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:01Z", "measurements": {"co2": {"value": 980.21, "unit": "ppm"}, "temperature": {"value": 18.84, "unit": "C"}}}
+2026-10-10 14:54:01,547 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:01+00:00 | id=111177 co2=980.2100, id=111178 temperature=18.8400
+2026-10-10 14:54:06,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:06Z", "measurements": {"co2": {"value": 1208.01, "unit": "ppm"}, "temperature": {"value": 25.31, "unit": "C"}}}
+2026-10-10 14:54:06,545 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:06+00:00 | id=111184 co2=1208.0100, id=111185 temperature=25.3100
+2026-10-10 14:54:11,009 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:11Z", "measurements": {"co2": {"value": 762.72, "unit": "ppm"}, "temperature": {"value": 26.88, "unit": "C"}}}
+2026-10-10 14:54:11,538 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:11+00:00 | id=111191 co2=762.7200, id=111192 temperature=26.8800
+2026-10-10 14:54:16,010 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:16Z", "measurements": {"co2": {"value": 718.22, "unit": "ppm"}, "temperature": {"value": 27.91, "unit": "C"}}}
+2026-10-10 14:54:16,533 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:16+00:00 | id=111198 co2=718.2200, id=111199 temperature=27.9100
+2026-10-10 14:54:21,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:21Z", "measurements": {"co2": {"value": 1222.12, "unit": "ppm"}, "temperature": {"value": 20.17, "unit": "C"}}}
+2026-10-10 14:54:21,538 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:21+00:00 | id=111205 co2=1222.1200, id=111206 temperature=20.1700
+2026-10-10 14:54:26,030 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:26Z", "measurements": {"co2": {"value": 471.52, "unit": "ppm"}, "temperature": {"value": 26.13, "unit": "C"}}}
+2026-10-10 14:54:26,563 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:26+00:00 | id=111212 co2=471.5200, id=111213 temperature=26.1300
+2026-10-10 14:54:31,023 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:31Z", "measurements": {"co2": {"value": 1098.75, "unit": "ppm"}, "temperature": {"value": 19.46, "unit": "C"}}}
+2026-10-10 14:54:31,556 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:31+00:00 | id=111219 co2=1098.7500, id=111220 temperature=19.4600
+2026-10-10 14:54:36,025 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:36Z", "measurements": {"co2": {"value": 1499.49, "unit": "ppm"}, "temperature": {"value": 26.38, "unit": "C"}}}
+2026-10-10 14:54:36,555 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:36+00:00 | id=111226 co2=1499.4900, id=111227 temperature=26.3800
+2026-10-10 14:54:41,034 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:41Z", "measurements": {"co2": {"value": 1374.72, "unit": "ppm"}, "temperature": {"value": 21.77, "unit": "C"}}}
+2026-10-10 14:54:41,636 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:41+00:00 | id=111233 co2=1374.7200, id=111234 temperature=21.7700
+2026-10-10 14:54:46,028 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:46Z", "measurements": {"co2": {"value": 1147.7, "unit": "ppm"}, "temperature": {"value": 26.0, "unit": "C"}}}
+2026-10-10 14:54:46,553 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:46+00:00 | id=111240 co2=1147.7000, id=111241 temperature=26.0000
+2026-10-10 14:54:51,012 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:51Z", "measurements": {"co2": {"value": 985.97, "unit": "ppm"}, "temperature": {"value": 30.09, "unit": "C"}}}
+2026-10-10 14:54:51,543 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:51+00:00 | id=111247 co2=985.9700, id=111248 temperature=30.0900
+2026-10-10 14:54:56,024 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:54:56Z", "measurements": {"co2": {"value": 528.76, "unit": "ppm"}, "temperature": {"value": 21.84, "unit": "C"}}}
+2026-10-10 14:54:56,550 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:54:56+00:00 | id=111254 co2=528.7600, id=111255 temperature=21.8400
+2026-10-10 14:55:01,006 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:01Z", "measurements": {"co2": {"value": 435.37, "unit": "ppm"}, "temperature": {"value": 30.6, "unit": "C"}}}
+2026-10-10 14:55:01,539 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:01+00:00 | id=111261 co2=435.3700, id=111262 temperature=30.6000
+2026-10-10 14:55:06,028 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:06Z", "measurements": {"co2": {"value": 966.44, "unit": "ppm"}, "temperature": {"value": 29.5, "unit": "C"}}}
+2026-10-10 14:55:06,556 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:06+00:00 | id=111268 co2=966.4400, id=111269 temperature=29.5000
+2026-10-10 14:55:11,029 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:11Z", "measurements": {"co2": {"value": 373.67, "unit": "ppm"}, "temperature": {"value": 18.96, "unit": "C"}}}
+2026-10-10 14:55:11,567 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:11+00:00 | id=111275 co2=373.6700, id=111276 temperature=18.9600
+2026-10-10 14:55:16,025 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:16Z", "measurements": {"co2": {"value": 506.48, "unit": "ppm"}, "temperature": {"value": 30.69, "unit": "C"}}}
+2026-10-10 14:55:16,547 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:16+00:00 | id=111282 co2=506.4800, id=111283 temperature=30.6900
+2026-10-10 14:55:21,020 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:21Z", "measurements": {"co2": {"value": 787.21, "unit": "ppm"}, "temperature": {"value": 29.0, "unit": "C"}}}
+2026-10-10 14:55:21,554 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:21+00:00 | id=111289 co2=787.2100, id=111290 temperature=29.0000
+2026-10-10 14:55:26,015 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:26Z", "measurements": {"co2": {"value": 855.14, "unit": "ppm"}, "temperature": {"value": 27.64, "unit": "C"}}}
+2026-10-10 14:55:26,535 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:26+00:00 | id=111296 co2=855.1400, id=111297 temperature=27.6400
+2026-10-10 14:55:31,037 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:31Z", "measurements": {"co2": {"value": 876.53, "unit": "ppm"}, "temperature": {"value": 30.07, "unit": "C"}}}
+2026-10-10 14:55:31,568 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:31+00:00 | id=111303 co2=876.5300, id=111304 temperature=30.0700
+2026-10-10 14:55:36,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:36Z", "measurements": {"co2": {"value": 1220.74, "unit": "ppm"}, "temperature": {"unit": "C"}}}
+2026-10-10 14:55:36,020 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.temperature.value: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:36Z", "measurements": {"co2": {"value": 1220.74, "unit": "ppm"}, "temperature": {"unit": "C"}}}
+2026-10-10 14:55:41,017 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:41Z", "measurements": {"co2": {"value": 1269.37, "unit": "INVALID_UNIT"}, "temperature": {"value": 25.89, "unit": "C"}}}
+2026-10-10 14:55:41,199 WARNING [RECHAZADO] Unidad incorrecta en 'co2': llego 'INVALID_UNIT' y se esperaba 'ppm' | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:41Z", "measurements": {"co2": {"value": 1269.37, "unit": "INVALID_UNIT"}, "temperature": {"value": 25.89, "unit": "C"}}}
+2026-10-10 14:55:46,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:46Z", "measurements": {"co2": {"value": "545.83", "unit": "ppm"}, "temperature": {"value": 21.14, "unit": "C"}}}
+2026-10-10 14:55:46,023 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:46Z", "measurements": {"co2": {"value": "545.83", "unit": "ppm"}, "temperature": {"value": 21.14, "unit": "C"}}}
+2026-10-10 14:55:51,033 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:51Z", "measurements": {"co2": {"value": 494.25, "unit": "ppm"}, "temperature": {"value": 20.97, "unit": "C"}}}
+2026-10-10 14:55:51,564 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:51+00:00 | id=111325 co2=494.2500, id=111326 temperature=20.9700
+2026-10-10 14:55:56,021 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:55:56Z", "measurements": {"co2": {"value": 510.7, "unit": "ppm"}, "temperature": {"value": 26.75, "unit": "C"}}}
+2026-10-10 14:55:56,547 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:55:56+00:00 | id=111332 co2=510.7000, id=111333 temperature=26.7500
+2026-10-10 14:56:01,033 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:01Z", "measurements": {"co2": {"value": 796.84, "unit": "ppm"}, "temperature": {"value": 31.91, "unit": "C"}}}
+2026-10-10 14:56:01,560 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:01+00:00 | id=111339 co2=796.8400, id=111340 temperature=31.9100
+2026-10-10 14:56:06,033 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:06Z", "measurements": {"co2": {"value": 1245.5, "unit": "ppm"}, "temperature": {"value": 24.85, "unit": "C"}}}
+2026-10-10 14:56:06,561 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:06+00:00 | id=111346 co2=1245.5000, id=111347 temperature=24.8500
+2026-10-10 14:56:11,022 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:11Z", "measurements": {"co2": {"value": 442.95, "unit": "ppm"}, "temperature": {"value": 19.12, "unit": "C"}}}
+2026-10-10 14:56:11,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:11+00:00 | id=111353 co2=442.9500, id=111354 temperature=19.1200
+2026-10-10 14:56:16,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:16Z", "measurements": {"co2": {"value": 765.38, "unit": "ppm"}, "temperature": {"value": 27.73, "unit": "C"}}}
+2026-10-10 14:56:16,540 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:16+00:00 | id=111360 co2=765.3800, id=111361 temperature=27.7300
+2026-10-10 14:56:21,029 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:21Z", "measurements": {"co2": {"value": 1144.01, "unit": "ppm"}, "temperature": {"value": 27.82, "unit": "C"}}}
+2026-10-10 14:56:21,557 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:21+00:00 | id=111367 co2=1144.0100, id=111368 temperature=27.8200
+2026-10-10 14:56:26,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:26Z", "measurements": {"co2": {"value": 539.32, "unit": "ppm"}, "temperature": {"value": 27.47, "unit": "C"}}}
+2026-10-10 14:56:26,562 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:26+00:00 | id=111374 co2=539.3200, id=111375 temperature=27.4700
+2026-10-10 14:56:31,027 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:31Z", "measurements": {"co2": {"value": 616.64, "unit": "ppm"}, "temperature": {"value": 23.89, "unit": "C"}}}
+2026-10-10 14:56:31,689 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:31+00:00 | id=111381 co2=616.6400, id=111382 temperature=23.8900
+2026-10-10 14:56:36,019 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:36Z", "measurements": {"co2": {"value": 837.94, "unit": "ppm"}, "temperature": {"value": 27.12, "unit": "C"}}}
+2026-10-10 14:56:36,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:36+00:00 | id=111388 co2=837.9400, id=111389 temperature=27.1200
+2026-10-10 14:56:41,051 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:41Z", "measurements": {"co2": {"value": 1284.12, "unit": "ppm"}, "temperature": {"value": 19.48, "unit": "C"}}}
+2026-10-10 14:56:41,582 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:41+00:00 | id=111395 co2=1284.1200, id=111396 temperature=19.4800
+2026-10-10 14:56:46,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:46Z", "measurements": {"co2": {"value": 692.76, "unit": "ppm"}, "temperature": {"value": 18.96, "unit": "C"}}}
+2026-10-10 14:56:46,565 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:46+00:00 | id=111402 co2=692.7600, id=111403 temperature=18.9600
+2026-10-10 14:56:51,031 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:51Z", "measurements": {"co2": {"value": 1152.37, "unit": "ppm"}, "temperature": {"value": 20.08}}}
+2026-10-10 14:56:51,032 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.temperature.unit: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:51Z", "measurements": {"co2": {"value": 1152.37, "unit": "ppm"}, "temperature": {"value": 20.08}}}
+2026-10-10 14:56:56,034 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:56:56Z", "measurements": {"co2": {"value": 1217.73, "unit": "ppm"}, "temperature": {"value": 30.61, "unit": "C"}}}
+2026-10-10 14:56:56,584 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:56:56+00:00 | id=111414 co2=1217.7300, id=111415 temperature=30.6100
+2026-10-10 14:57:01,017 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:01Z", "measurements": {"co2": {"value": 785.07, "unit": "ppm"}, "temperature": {"value": 23.42, "unit": "C"}}}
+2026-10-10 14:57:01,547 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:01+00:00 | id=111421 co2=785.0700, id=111422 temperature=23.4200
+2026-10-10 14:57:06,050 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:06Z", "measurements": {"co2": {"value": 637.66, "unit": "ppm"}, "temperature": {"value": 31.82, "unit": "C"}}}
+2026-10-10 14:57:06,581 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:06+00:00 | id=111428 co2=637.6600, id=111429 temperature=31.8200
+2026-10-10 14:57:11,020 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:11Z", "measurements": {"co2": {"value": 964.97, "unit": "ppm"}, "temperature": {"value": 25.0, "unit": "C"}}}
+2026-10-10 14:57:11,545 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:11+00:00 | id=111435 co2=964.9700, id=111436 temperature=25.0000
+2026-10-10 14:57:16,037 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:16Z", "measurements": {"co2": {"value": 569.81, "unit": "ppm"}, "temperature": {"value": 21.09, "unit": "C"}}}
+2026-10-10 14:57:16,557 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:16+00:00 | id=111442 co2=569.8100, id=111443 temperature=21.0900
+2026-10-10 14:57:21,034 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:21Z", "measurements": {"co2": {"value": 982.16, "unit": "ppm"}, "temperature": {"value": 30.13, "unit": "C"}}}
+2026-10-10 14:57:21,558 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:21+00:00 | id=111449 co2=982.1600, id=111450 temperature=30.1300
+2026-10-10 14:57:26,036 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:26Z", "measurements": {"co2": {"value": 778.31, "unit": "ppm"}, "temperature": {"value": 29.08, "unit": "C"}}}
+2026-10-10 14:57:26,558 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:26+00:00 | id=111456 co2=778.3100, id=111457 temperature=29.0800
+2026-10-10 14:57:31,034 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:31Z", "measurements": {"co2": {"value": 484.65, "unit": "ppm"}, "temperature": {"value": 22.16, "unit": "C"}}}
+2026-10-10 14:57:31,557 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:31+00:00 | id=111463 co2=484.6500, id=111464 temperature=22.1600
+2026-10-10 14:57:36,026 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:36Z", "measurements": {"co2": {"value": 851.26, "unit": "ppm"}, "temperature": {"value": 30.21, "unit": "C"}}}
+2026-10-10 14:57:36,560 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:36+00:00 | id=111470 co2=851.2600, id=111471 temperature=30.2100
+2026-10-10 14:57:41,040 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:41Z", "measurements": {"co2": {"value": 585.76, "unit": "ppm"}, "temperature": {"value": 18.15, "unit": "C"}}}
+2026-10-10 14:57:41,571 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:41+00:00 | id=111477 co2=585.7600, id=111478 temperature=18.1500
+2026-10-10 14:57:46,018 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:46Z", "measurements": {"co2": {"value": 1245.98, "unit": "ppm"}, "temperature": {"value": 31.48, "unit": "C"}}}
+2026-10-10 14:57:46,545 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:46+00:00 | id=111484 co2=1245.9800, id=111485 temperature=31.4800
+2026-10-10 14:57:51,020 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:51Z", "measurements": {"co2": {"value": 494.36, "unit": "ppm"}, "temperature": {"value": 22.97, "unit": "C"}}}
+2026-10-10 14:57:51,555 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:51+00:00 | id=111491 co2=494.3600, id=111492 temperature=22.9700
+2026-10-10 14:57:56,028 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:57:56Z", "measurements": {"co2": {"value": 824.05, "unit": "ppm"}, "temperature": {"value": 29.74, "unit": "C"}}}
+2026-10-10 14:57:56,551 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:57:56+00:00 | id=111498 co2=824.0500, id=111499 temperature=29.7400
+2026-10-10 14:58:01,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:01Z", "measurements": {"co2": {"value": 446.2, "unit": "ppm"}, "temperature": {"value": 24.0, "unit": "C"}}}
+2026-10-10 14:58:01,575 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:01+00:00 | id=111505 co2=446.2000, id=111506 temperature=24.0000
+2026-10-10 14:58:06,034 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:06Z", "measurements": {"co2": {"value": 1304.65, "unit": "ppm"}, "temperature": {"value": 18.71, "unit": "C"}}}
+2026-10-10 14:58:06,573 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:06+00:00 | id=111512 co2=1304.6500, id=111513 temperature=18.7100
+2026-10-10 14:58:11,025 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:11Z", "measurements": {"co2": {"value": 677.42, "unit": "ppm"}, "temperature": {"value": 23.07, "unit": "C"}}}
+2026-10-10 14:58:11,540 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:11+00:00 | id=111519 co2=677.4200, id=111520 temperature=23.0700
+2026-10-10 14:58:16,041 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:16Z", "measurements": {"co2": {"value": 926.24, "unit": "ppm"}, "temperature": {"value": 21.07, "unit": "C"}, "humidity": {"value": 33.74, "unit": "%"}}}
+2026-10-10 14:58:16,271 WARNING [RECHAZADO] Magnitud incorrecta: 'humidity' no esta configurada para GAS-006 | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:16Z", "measurements": {"co2": {"value": 926.24, "unit": "ppm"}, "temperature": {"value": 21.07, "unit": "C"}, "humidity": {"value": 33.74, "unit": "%"}}}
+2026-10-10 14:58:21,040 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:21Z", "measurements": {"co2": {"value": 607.79, "unit": "ppm"}, "temperature": {"value": 31.48, "unit": "C"}}}
+2026-10-10 14:58:21,557 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:21+00:00 | id=111531 co2=607.7900, id=111532 temperature=31.4800
+2026-10-10 14:58:26,052 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:26Z", "measurements": {"co2": {"value": 553.8, "unit": "ppm"}, "temperature": {"value": 20.98, "unit": "C"}}}
+2026-10-10 14:58:26,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:26+00:00 | id=111538 co2=553.8000, id=111539 temperature=20.9800
+2026-10-10 14:58:31,041 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:31Z", "measurements": {"co2": {"value": 1497.11, "unit": "ppm"}, "temperature": {"value": 30.05, "unit": "C"}}}
+2026-10-10 14:58:31,559 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:31+00:00 | id=111545 co2=1497.1100, id=111546 temperature=30.0500
+2026-10-10 14:58:36,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:36Z", "measurements": {"co2": {"value": 477.78, "unit": "ppm"}, "temperature": {"unit": "C"}}}
+2026-10-10 14:58:36,033 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.temperature.value: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:36Z", "measurements": {"co2": {"value": 477.78, "unit": "ppm"}, "temperature": {"unit": "C"}}}
+2026-10-10 14:58:41,048 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:41Z", "measurements": {"co2": {"value": 1069.57, "unit": "ppm"}, "temperature": {"value": 21.32, "unit": "C"}}}
+2026-10-10 14:58:41,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:41+00:00 | id=111557 co2=1069.5700, id=111558 temperature=21.3200
+2026-10-10 14:58:46,038 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:46Z", "measurements": {"co2": {"value": 1020.26, "unit": "ppm"}, "temperature": {"value": 24.27, "unit": "C"}}}
+2026-10-10 14:58:46,558 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:46+00:00 | id=111564 co2=1020.2600, id=111565 temperature=24.2700
+2026-10-10 14:58:51,025 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:51Z", "measurements": {"co2": {"value": 590.61, "unit": "ppm"}, "temperature": {"value": 29.6, "unit": "C"}}}
+2026-10-10 14:58:51,549 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:51+00:00 | id=111571 co2=590.6100, id=111572 temperature=29.6000
+2026-10-10 14:58:56,052 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:58:56Z", "measurements": {"co2": {"value": 770.69, "unit": "ppm"}, "temperature": {"value": 23.49, "unit": "C"}}}
+2026-10-10 14:58:56,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:58:56+00:00 | id=111578 co2=770.6900, id=111579 temperature=23.4900
+2026-10-10 14:59:01,042 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "not-a-timestamp", "measurements": {"co2": {"value": 1309.55, "unit": "ppm"}, "temperature": {"value": 21.87, "unit": "C"}}}
+2026-10-10 14:59:01,042 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): timestamp: Value error, 'not-a-timestamp' no es una fecha ISO 8601 valida | payload={"sensor_id": "GAS-006", "timestamp": "not-a-timestamp", "measurements": {"co2": {"value": 1309.55, "unit": "ppm"}, "temperature": {"value": 21.87, "unit": "C"}}}
+2026-10-10 14:59:06,043 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:06Z", "measurements": {"co2": {"value": 1420.73, "unit": "ppm"}, "temperature": {"value": 27.71, "unit": "C"}}}
+2026-10-10 14:59:06,609 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:06+00:00 | id=111590 co2=1420.7300, id=111591 temperature=27.7100
+2026-10-10 14:59:11,037 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:11Z", "measurements": {"co2": {"value": 922.17, "unit": "ppm"}, "temperature": {"value": 30.55, "unit": "C"}}}
+2026-10-10 14:59:11,560 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:11+00:00 | id=111597 co2=922.1700, id=111598 temperature=30.5500
+2026-10-10 14:59:16,039 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:16Z", "measurements": {"co2": {"value": 516.71, "unit": "ppm"}, "temperature": {"value": 25.27, "unit": "C"}}}
+2026-10-10 14:59:16,558 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:16+00:00 | id=111604 co2=516.7100, id=111605 temperature=25.2700
+2026-10-10 14:59:21,038 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:21Z", "measurements": {"co2": {"value": 999999.0, "unit": "ppm"}, "temperature": {"value": 30.24, "unit": "C"}}}
+2026-10-10 14:59:21,222 WARNING [RECHAZADO] Valor fuera de rango en 'co2': 999999.0 no esta entre 300.0000 y 5000.0000 | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:21Z", "measurements": {"co2": {"value": 999999.0, "unit": "ppm"}, "temperature": {"value": 30.24, "unit": "C"}}}
+2026-10-10 14:59:26,049 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:26Z", "measurements": {"co2": {"value": 823.55, "unit": "ppm"}, "temperature": {"value": 25.07, "unit": "C"}}}
+2026-10-10 14:59:26,568 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:26+00:00 | id=111616 co2=823.5500, id=111617 temperature=25.0700
+2026-10-10 14:59:31,054 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:31Z", "measurements": {"co2": {"value": 1125.68, "unit": "ppm"}, "temperature": {"value": 18.58, "unit": "C"}}}
+2026-10-10 14:59:31,590 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:31+00:00 | id=111623 co2=1125.6800, id=111624 temperature=18.5800
+2026-10-10 14:59:36,050 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:36Z", "measurements": {"co2": {"value": 406.72, "unit": "ppm"}, "temperature": {"value": 31.7, "unit": "C"}}}
+2026-10-10 14:59:36,581 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:36+00:00 | id=111630 co2=406.7200, id=111631 temperature=31.7000
+2026-10-10 14:59:41,049 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:41Z", "measurements": {"co2": {"value": 1068.23, "unit": "ppm"}, "temperature": {"value": 26.56, "unit": "C"}}}
+2026-10-10 14:59:41,573 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:41+00:00 | id=111637 co2=1068.2300, id=111638 temperature=26.5600
+2026-10-10 14:59:46,030 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:46Z", "measurements": {"co2": {"value": 1020.82, "unit": "ppm"}, "temperature": {"value": 23.49, "unit": "C"}}}
+2026-10-10 14:59:46,586 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:46+00:00 | id=111644 co2=1020.8200, id=111645 temperature=23.4900
+2026-10-10 14:59:51,031 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:51Z", "measurements": {"co2": {"value": 1033.72, "unit": "ppm"}, "temperature": {"value": 31.73, "unit": "C"}}}
+2026-10-10 14:59:51,552 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:51+00:00 | id=111651 co2=1033.7200, id=111652 temperature=31.7300
+2026-10-10 14:59:56,048 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:59:56Z", "measurements": {"co2": {"value": 1055.83, "unit": "ppm"}, "temperature": {"value": 24.06, "unit": "C"}}}
+2026-10-10 14:59:56,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T19:59:56+00:00 | id=111658 co2=1055.8300, id=111659 temperature=24.0600
+2026-10-10 15:00:01,041 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:01Z", "measurements": {"co2": {"value": 1226.01, "unit": "ppm"}, "temperature": {"value": 21.04, "unit": "C"}}}
+2026-10-10 15:00:01,572 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:01+00:00 | id=111665 co2=1226.0100, id=111666 temperature=21.0400
+2026-10-10 15:00:06,041 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:06Z", "measurements": {"co2": {"value": 1090.58, "unit": "ppm"}, "temperature": {"value": 23.14, "unit": "C"}}}
+2026-10-10 15:00:06,566 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:06+00:00 | id=111672 co2=1090.5800, id=111673 temperature=23.1400
+2026-10-10 15:00:11,038 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:11Z", "measurements": {"co2": {"value": 1255.25, "unit": "ppm"}, "temperature": {"value": 20.91, "unit": "C"}}}
+2026-10-10 15:00:11,557 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:11+00:00 | id=111679 co2=1255.2500, id=111680 temperature=20.9100
+2026-10-10 15:00:16,048 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:16Z", "measurements": {"co2": {"value": 1494.99, "unit": "ppm"}, "temperature": {"value": 22.82, "unit": "C"}}}
+2026-10-10 15:00:16,574 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:16+00:00 | id=111686 co2=1494.9900, id=111687 temperature=22.8200
+2026-10-10 15:00:21,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:21Z", "measurements": {"co2": {"value": 1198.72, "unit": "ppm"}, "temperature": {"value": 21.46, "unit": "C"}}}
+2026-10-10 15:00:21,552 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:21+00:00 | id=111693 co2=1198.7200, id=111694 temperature=21.4600
+2026-10-10 15:00:26,046 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:26Z", "measurements": {"co2": {"value": 972.53, "unit": "ppm"}, "temperature": {"value": 28.95, "unit": "C"}}}
+2026-10-10 15:00:26,561 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:26+00:00 | id=111700 co2=972.5300, id=111701 temperature=28.9500
+2026-10-10 15:00:31,056 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:31Z", "measurements": {"co2": {"value": 1175.25, "unit": "ppm"}, "temperature": {"value": 25.39, "unit": "C"}}}
+2026-10-10 15:00:31,606 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:31+00:00 | id=111707 co2=1175.2500, id=111708 temperature=25.3900
+2026-10-10 15:00:36,043 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:36Z", "measurements": {"co2": {"value": 1110.66, "unit": "ppm"}, "temperature": {"value": 25.35, "unit": "C"}}}
+2026-10-10 15:00:36,577 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:36+00:00 | id=111711 co2=1110.6600, id=111712 temperature=25.3500
+2026-10-10 15:00:41,032 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:41Z", "measurements": {"co2": {"value": 855.72, "unit": "ppm"}, "temperature": {"value": 31.16, "unit": "C"}}}
+2026-10-10 15:00:41,567 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:41+00:00 | id=111718 co2=855.7200, id=111719 temperature=31.1600
+2026-10-10 15:00:46,045 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:46Z", "measurements": {"co2": {"value": 812.02, "unit": "ppm"}, "temperature": {"value": 27.52, "unit": "C"}}}
+2026-10-10 15:00:46,565 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:46+00:00 | id=111725 co2=812.0200, id=111726 temperature=27.5200
+2026-10-10 15:00:51,046 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:51Z", "measurements": {"co2": {"value": 525.35, "unit": "ppm"}, "temperature": {"value": 23.92, "unit": "C"}}}
+2026-10-10 15:00:51,574 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:51+00:00 | id=111732 co2=525.3500, id=111733 temperature=23.9200
+2026-10-10 15:00:56,042 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:00:56Z", "measurements": {"co2": {"value": 1181.14, "unit": "ppm"}, "temperature": {"value": 25.88, "unit": "C"}}}
+2026-10-10 15:00:56,601 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:00:56+00:00 | id=111739 co2=1181.1400, id=111740 temperature=25.8800
+2026-10-10 15:01:01,030 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:01Z", "measurements": {"co2": {"value": 1039.36, "unit": "ppm"}, "temperature": {"value": 24.55, "unit": "C"}}}
+2026-10-10 15:01:01,568 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:01+00:00 | id=111746 co2=1039.3600, id=111747 temperature=24.5500
+2026-10-10 15:01:06,072 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:06Z", "measurements": {"co2": {"value": 1295.18, "unit": "ppm"}, "temperature": {"value": 21.47, "unit": "C"}}}
+2026-10-10 15:01:06,663 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:06+00:00 | id=111753 co2=1295.1800, id=111754 temperature=21.4700
+2026-10-10 15:01:11,040 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:11Z", "measurements": {"co2": {"value": 1292.76, "unit": "ppm"}, "temperature": {"value": 27.87, "unit": "C"}}}
+2026-10-10 15:01:11,569 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:11+00:00 | id=111760 co2=1292.7600, id=111761 temperature=27.8700
+2026-10-10 15:01:16,044 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:16Z", "measurements": {"co2": {"value": "709.55", "unit": "ppm"}, "temperature": {"value": 30.65, "unit": "C"}}}
+2026-10-10 15:01:16,044 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:16Z", "measurements": {"co2": {"value": "709.55", "unit": "ppm"}, "temperature": {"value": 30.65, "unit": "C"}}}
+2026-10-10 15:01:21,045 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:21Z", "measurements": {"co2": {"value": 1236.02, "unit": "ppm"}, "temperature": {"value": 25.86, "unit": "C"}}}
+2026-10-10 15:01:21,587 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:21+00:00 | id=111772 co2=1236.0200, id=111773 temperature=25.8600
+2026-10-10 15:01:26,052 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:26Z", "measurements": {"co2": {"value": 922.35, "unit": "ppm"}, "temperature": {"value": 28.72, "unit": "C"}}}
+2026-10-10 15:01:26,573 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:26+00:00 | id=111777 co2=922.3500, id=111778 temperature=28.7200
+2026-10-10 15:01:31,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:31Z", "measurements": {"co2": {"value": 698.49, "unit": "ppm"}, "temperature": {"value": 20.07, "unit": "C"}}}
+2026-10-10 15:01:31,585 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:31+00:00 | id=111784 co2=698.4900, id=111785 temperature=20.0700
+2026-10-10 15:01:36,036 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:36Z", "measurements": {"co2": {"value": 754.63, "unit": "ppm"}, "temperature": {"value": 29.88, "unit": "C"}}}
+2026-10-10 15:01:36,554 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:36+00:00 | id=111791 co2=754.6300, id=111792 temperature=29.8800
+2026-10-10 15:01:41,050 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:41Z", "measurements": {"co2": {"value": 1195.14, "unit": "ppm"}, "temperature": {"value": 24.05, "unit": "C"}}}
+2026-10-10 15:01:41,569 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:41+00:00 | id=111798 co2=1195.1400, id=111799 temperature=24.0500
+2026-10-10 15:01:46,047 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:46Z", "measurements": {"co2": {"value": 1460.04, "unit": "ppm"}, "temperature": {"value": 21.42, "unit": "C"}}}
+2026-10-10 15:01:46,578 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:46+00:00 | id=111805 co2=1460.0400, id=111806 temperature=21.4200
+2026-10-10 15:01:51,042 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:51Z", "measurements": {"co2": {"value": 619.13, "unit": "ppm"}, "temperature": {"value": 29.99, "unit": "C"}}}
+2026-10-10 15:01:51,571 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:51+00:00 | id=111812 co2=619.1300, id=111813 temperature=29.9900
+2026-10-10 15:01:56,044 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:01:56Z", "measurements": {"co2": {"value": 392.21, "unit": "ppm"}, "temperature": {"value": 28.9, "unit": "C"}}}
+2026-10-10 15:01:56,564 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:01:56+00:00 | id=111819 co2=392.2100, id=111820 temperature=28.9000
+2026-10-10 15:02:01,037 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:01Z", "measurements": {"co2": {"value": 936.63, "unit": "ppm"}, "temperature": {"value": 23.87, "unit": "C"}}}
+2026-10-10 15:02:01,573 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:01+00:00 | id=111826 co2=936.6300, id=111827 temperature=23.8700
+2026-10-10 15:02:06,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:06Z", "measurements": {"co2": {"value": 935.03, "unit": "ppm"}, "temperature": {"value": 29.45, "unit": "C"}}}
+2026-10-10 15:02:06,606 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:06+00:00 | id=111833 co2=935.0300, id=111834 temperature=29.4500
+2026-10-10 15:02:11,047 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:11Z", "measurements": {"co2": {"value": 439.17, "unit": "ppm"}, "temperature": {"value": 29.33, "unit": "C"}}}
+2026-10-10 15:02:11,705 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:11+00:00 | id=111840 co2=439.1700, id=111841 temperature=29.3300
+2026-10-10 15:02:16,055 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:16Z", "measurements": {"co2": {"value": 741.57, "unit": "ppm"}, "temperature": {"value": 20.75, "unit": "C"}}}
+2026-10-10 15:02:16,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:16+00:00 | id=111847 co2=741.5700, id=111848 temperature=20.7500
+2026-10-10 15:02:21,056 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:21Z", "measurements": {"co2": {"value": 919.47, "unit": "ppm"}, "temperature": {"value": 18.18, "unit": "C"}}}
+2026-10-10 15:02:21,584 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:21+00:00 | id=111854 co2=919.4700, id=111855 temperature=18.1800
+2026-10-10 15:02:26,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:26Z", "measurements": {"co2": {"value": 548.61, "unit": "ppm"}, "temperature": {"value": 23.77, "unit": "C"}}}
+2026-10-10 15:02:26,585 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:26+00:00 | id=111861 co2=548.6100, id=111862 temperature=23.7700
+2026-10-10 15:02:31,065 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:31Z", "measurements": {"co2": {"value": 1189.43, "unit": "ppm"}, "temperature": {"value": 31.47, "unit": "C"}}}
+2026-10-10 15:02:31,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:31+00:00 | id=111868 co2=1189.4300, id=111869 temperature=31.4700
+2026-10-10 15:02:36,054 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:36Z", "measurements": {"co2": {"value": 1217.14, "unit": "ppm"}, "temperature": {"value": 24.09, "unit": "C"}}}
+2026-10-10 15:02:36,583 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:36+00:00 | id=111875 co2=1217.1400, id=111876 temperature=24.0900
+2026-10-10 15:02:41,043 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:41Z", "measurements": {"co2": {"value": 1141.88, "unit": "ppm"}, "temperature": {"value": 21.11, "unit": "C"}}}
+2026-10-10 15:02:41,572 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:41+00:00 | id=111882 co2=1141.8800, id=111883 temperature=21.1100
+2026-10-10 15:02:46,047 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:46Z", "measurements": {"co2": {"value": 1177.22, "unit": "ppm"}, "temperature": {"value": 27.74, "unit": "C"}}}
+2026-10-10 15:02:46,580 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:46+00:00 | id=111889 co2=1177.2200, id=111890 temperature=27.7400
+2026-10-10 15:02:51,059 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:51Z", "measurements": {"co2": {"value": 1363.7, "unit": "ppm"}, "temperature": {"value": 26.96, "unit": "C"}}}
+2026-10-10 15:02:51,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:51+00:00 | id=111896 co2=1363.7000, id=111897 temperature=26.9600
+2026-10-10 15:02:56,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:02:56Z", "measurements": {"co2": {"value": 1077.79, "unit": "ppm"}, "temperature": {"value": 29.55, "unit": "C"}}}
+2026-10-10 15:02:56,691 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:02:56+00:00 | id=111903 co2=1077.7900, id=111904 temperature=29.5500
+2026-10-10 15:03:01,039 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:01Z", "measurements": {"co2": {"value": 1253.26, "unit": "ppm"}, "temperature": {"value": 21.85, "unit": "C"}}}
+2026-10-10 15:03:01,560 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:01+00:00 | id=111910 co2=1253.2600, id=111911 temperature=21.8500
+2026-10-10 15:03:06,038 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:06Z", "measurements": {"co2": {"value": 1302.28, "unit": "ppm"}, "temperature": {"value": 28.03, "unit": "C"}}}
+2026-10-10 15:03:06,566 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:06+00:00 | id=111917 co2=1302.2800, id=111918 temperature=28.0300
+2026-10-10 15:03:11,054 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:11Z", "measurements": {"co2": {"value": 601.65, "unit": "ppm"}, "temperature": {"value": 23.85, "unit": "C"}}}
+2026-10-10 15:03:11,598 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:11+00:00 | id=111924 co2=601.6500, id=111925 temperature=23.8500
+2026-10-10 15:03:16,051 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:16Z", "measurements": {"co2": {"value": 1104.41, "unit": "ppm"}, "temperature": {"value": 20.27, "unit": "C"}}}
+2026-10-10 15:03:16,582 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:16+00:00 | id=111931 co2=1104.4100, id=111932 temperature=20.2700
+2026-10-10 15:03:21,071 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:21Z", "measurements": {"co2": {"value": 1113.23, "unit": "ppm"}, "temperature": {"value": 25.71, "unit": "C"}}}
+2026-10-10 15:03:21,590 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:21+00:00 | id=111938 co2=1113.2300, id=111939 temperature=25.7100
+2026-10-10 15:03:26,059 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:26Z", "measurements": {"co2": {"value": 821.66, "unit": "ppm"}, "temperature": {"value": 24.24, "unit": "C"}}}
+2026-10-10 15:03:26,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:26+00:00 | id=111945 co2=821.6600, id=111946 temperature=24.2400
+2026-10-10 15:03:31,041 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:31Z", "measurements": {"co2": {"value": 519.55, "unit": "ppm"}, "temperature": {"value": 30.77, "unit": "C"}}}
+2026-10-10 15:03:31,573 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:31+00:00 | id=111952 co2=519.5500, id=111953 temperature=30.7700
+2026-10-10 15:03:36,045 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:36Z", "measurements": {"co2": {"value": 686.18, "unit": "ppm"}, "temperature": {"value": 22.55, "unit": "C"}}}
+2026-10-10 15:03:36,560 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:36+00:00 | id=111959 co2=686.1800, id=111960 temperature=22.5500
+2026-10-10 15:03:41,057 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:41Z", "measurements": {"co2": {"value": 1086.16, "unit": "ppm"}, "temperature": {"value": 30.06, "unit": "C"}}}
+2026-10-10 15:03:41,585 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:41+00:00 | id=111964 co2=1086.1600, id=111965 temperature=30.0600
+2026-10-10 15:03:46,059 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:46Z", "measurements": {"co2": {"value": 482.13, "unit": "ppm"}, "temperature": {"value": 31.85, "unit": "C"}}}
+2026-10-10 15:03:46,597 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:46+00:00 | id=111971 co2=482.1300, id=111972 temperature=31.8500
+2026-10-10 15:03:51,072 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:51Z", "measurements": {"co2": {"value": 1072.43, "unit": "ppm"}, "temperature": {"value": 25.74, "unit": "C"}}}
+2026-10-10 15:03:51,614 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:51+00:00 | id=111978 co2=1072.4300, id=111979 temperature=25.7400
+2026-10-10 15:03:56,047 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:03:56Z", "measurements": {"co2": {"value": 514.82, "unit": "ppm"}, "temperature": {"value": 20.65, "unit": "C"}}}
+2026-10-10 15:03:56,591 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:03:56+00:00 | id=111985 co2=514.8200, id=111986 temperature=20.6500
+2026-10-10 15:04:01,059 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:01Z", "measurements": {"co2": {"value": 567.03, "unit": "ppm"}, "temperature": {"value": 18.03, "unit": "C"}}}
+2026-10-10 15:04:01,590 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:01+00:00 | id=111992 co2=567.0300, id=111993 temperature=18.0300
+2026-10-10 15:04:06,058 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:06Z", "measurements": {"co2": {"value": 610.18, "unit": "ppm"}, "temperature": {"value": 25.87, "unit": "C"}}}
+2026-10-10 15:04:06,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:06+00:00 | id=111999 co2=610.1800, id=112000 temperature=25.8700
+2026-10-10 15:04:11,063 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:11Z", "measurements": {"co2": {"value": 1009.22, "unit": "ppm"}, "temperature": {"value": 26.68, "unit": "C"}}}
+2026-10-10 15:04:11,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:11+00:00 | id=112006 co2=1009.2200, id=112007 temperature=26.6800
+2026-10-10 15:04:16,055 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:16Z", "measurements": {"co2": {"value": 1318.4, "unit": "ppm"}, "temperature": {"value": 25.71, "unit": "C"}}}
+2026-10-10 15:04:16,583 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:16+00:00 | id=112013 co2=1318.4000, id=112014 temperature=25.7100
+2026-10-10 15:04:21,052 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:21Z", "measurements": {"co2": {"value": 747.43, "unit": "ppm"}, "temperature": {"value": 19.09, "unit": "C"}}}
+2026-10-10 15:04:21,584 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:21+00:00 | id=112020 co2=747.4300, id=112021 temperature=19.0900
+2026-10-10 15:04:26,061 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:26Z", "measurements": {"co2": {"value": 708.15, "unit": "ppm"}, "temperature": {"value": 29.82, "unit": "C"}}}
+2026-10-10 15:04:26,585 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:26+00:00 | id=112027 co2=708.1500, id=112028 temperature=29.8200
+2026-10-10 15:04:31,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:31Z", "measurements": {"co2": {"value": 727.99, "unit": "ppm"}, "temperature": {"value": 19.62, "unit": "C"}}}
+2026-10-10 15:04:31,617 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:31+00:00 | id=112034 co2=727.9900, id=112035 temperature=19.6200
+2026-10-10 15:04:36,058 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:36Z", "measurements": {"co2": {"value": 520.94, "unit": "ppm"}, "temperature": {"value": 20.23, "unit": "C"}}}
+2026-10-10 15:04:36,601 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:36+00:00 | id=112041 co2=520.9400, id=112042 temperature=20.2300
+2026-10-10 15:04:41,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:41Z", "measurements": {"co2": {"value": 873.08, "unit": "ppm"}, "temperature": {"value": 27.07, "unit": "C"}}}
+2026-10-10 15:04:41,610 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:41+00:00 | id=112048 co2=873.0800, id=112049 temperature=27.0700
+2026-10-10 15:04:46,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:46Z", "measurements": {"co2": {"value": 802.5, "unit": "ppm"}, "temperature": {"value": 30.32, "unit": "C"}}}
+2026-10-10 15:04:46,587 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:46+00:00 | id=112055 co2=802.5000, id=112056 temperature=30.3200
+2026-10-10 15:04:51,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "not-a-timestamp", "measurements": {"co2": {"value": 921.12, "unit": "ppm"}, "temperature": {"value": 22.31, "unit": "C"}}}
+2026-10-10 15:04:51,060 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): timestamp: Value error, 'not-a-timestamp' no es una fecha ISO 8601 valida | payload={"sensor_id": "GAS-006", "timestamp": "not-a-timestamp", "measurements": {"co2": {"value": 921.12, "unit": "ppm"}, "temperature": {"value": 22.31, "unit": "C"}}}
+2026-10-10 15:04:56,070 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:04:56Z", "measurements": {"co2": {"value": 796.74, "unit": "ppm"}, "temperature": {"value": 21.62, "unit": "C"}}}
+2026-10-10 15:04:56,608 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:04:56+00:00 | id=112067 co2=796.7400, id=112068 temperature=21.6200
+2026-10-10 15:05:01,049 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:01Z", "measurements": {"co2": {"value": 1010.66, "unit": "ppm"}, "temperature": {"value": 24.82, "unit": "C"}}}
+2026-10-10 15:05:01,576 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:01+00:00 | id=112074 co2=1010.6600, id=112075 temperature=24.8200
+2026-10-10 15:05:06,061 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:06Z", "measurements": {"co2": {"value": 839.2, "unit": "ppm"}, "temperature": {"value": 30.66, "unit": "C"}}}
+2026-10-10 15:05:06,583 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:06+00:00 | id=112079 co2=839.2000, id=112080 temperature=30.6600
+2026-10-10 15:05:11,060 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:11Z", "measurements": {"co2": {"value": 804.23, "unit": "ppm"}, "temperature": {"value": 29.15, "unit": "C"}}}
+2026-10-10 15:05:11,581 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:11+00:00 | id=112086 co2=804.2300, id=112087 temperature=29.1500
+2026-10-10 15:05:16,056 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:16Z", "measurements": {"co2": {"value": 1284.33, "unit": "ppm"}, "temperature": {"value": 27.7, "unit": "C"}}}
+2026-10-10 15:05:16,582 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:16+00:00 | id=112093 co2=1284.3300, id=112094 temperature=27.7000
+2026-10-10 15:05:21,050 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:21Z", "measurements": {"co2": {"value": 693.29, "unit": "ppm"}, "temperature": {"value": 30.46, "unit": "INVALID_UNIT"}}}
+2026-10-10 15:05:21,234 WARNING [RECHAZADO] Unidad incorrecta en 'temperature': llego 'INVALID_UNIT' y se esperaba 'C' | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:21Z", "measurements": {"co2": {"value": 693.29, "unit": "ppm"}, "temperature": {"value": 30.46, "unit": "INVALID_UNIT"}}}
+2026-10-10 15:05:26,077 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:26Z", "measurements": {"co2": {"value": 1025.86, "unit": "ppm"}, "temperature": {"value": 31.7, "unit": "C"}}}
+2026-10-10 15:05:26,602 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:26+00:00 | id=112105 co2=1025.8600, id=112106 temperature=31.7000
+2026-10-10 15:05:31,058 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:31Z", "measurements": {"co2": {"value": 1322.99, "unit": "ppm"}, "temperature": {"value": 25.73, "unit": "C"}}}
+2026-10-10 15:05:31,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:31+00:00 | id=112112 co2=1322.9900, id=112113 temperature=25.7300
+2026-10-10 15:05:36,079 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:36Z", "measurements": {"co2": {"value": 1235.54, "unit": "ppm"}, "temperature": {"value": 27.26, "unit": "C"}}}
+2026-10-10 15:05:36,608 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:36+00:00 | id=112119 co2=1235.5400, id=112120 temperature=27.2600
+2026-10-10 15:05:41,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:41Z", "measurements": {"co2": {"value": 561.6, "unit": "ppm"}, "temperature": {"value": 30.97, "unit": "C"}}}
+2026-10-10 15:05:41,584 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:41+00:00 | id=112126 co2=561.6000, id=112127 temperature=30.9700
+2026-10-10 15:05:46,052 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:46Z", "measurements": {"co2": {"value": 1365.36, "unit": "ppm"}, "temperature": {"value": 23.27, "unit": "C"}}}
+2026-10-10 15:05:46,575 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:46+00:00 | id=112133 co2=1365.3600, id=112134 temperature=23.2700
+2026-10-10 15:05:51,049 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:51Z", "measurements": {"co2": {"value": 377.06, "unit": "ppm"}, "temperature": {"value": 25.82, "unit": "C"}}}
+2026-10-10 15:05:51,587 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:51+00:00 | id=112140 co2=377.0600, id=112141 temperature=25.8200
+2026-10-10 15:05:56,065 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:05:56Z", "measurements": {"co2": {"value": 858.15, "unit": "ppm"}, "temperature": {"value": 19.16, "unit": "C"}}}
+2026-10-10 15:05:56,598 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:05:56+00:00 | id=112142 co2=858.1500, id=112143 temperature=19.1600
+2026-10-10 15:06:01,047 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:01Z", "measurements": {"co2": {"value": 1048.55, "unit": "ppm"}, "temperature": {"value": 28.77, "unit": "C"}}}
+2026-10-10 15:06:01,584 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:01+00:00 | id=112149 co2=1048.5500, id=112150 temperature=28.7700
+2026-10-10 15:06:06,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:06Z", "measurements": {"co2": {"value": 1485.21, "unit": "ppm"}, "temperature": {"value": 21.16, "unit": "C"}}}
+2026-10-10 15:06:06,588 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:06+00:00 | id=112156 co2=1485.2100, id=112157 temperature=21.1600
+2026-10-10 15:06:11,065 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:11Z", "measurements": {"co2": {"value": 737.46, "unit": "ppm"}, "temperature": {"value": 24.35, "unit": "C"}}}
+2026-10-10 15:06:11,593 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:11+00:00 | id=112163 co2=737.4600, id=112164 temperature=24.3500
+2026-10-10 15:06:16,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:16Z", "measurements": {"co2": {"value": 1005.6, "unit": "ppm"}, "temperature": {"value": 21.93}}}
+2026-10-10 15:06:16,075 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.temperature.unit: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:16Z", "measurements": {"co2": {"value": 1005.6, "unit": "ppm"}, "temperature": {"value": 21.93}}}
+2026-10-10 15:06:21,056 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:21Z", "measurements": {"co2": {"value": 881.69, "unit": "ppm"}, "temperature": {"value": 30.57, "unit": "C"}}}
+2026-10-10 15:06:21,586 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:21+00:00 | id=112175 co2=881.6900, id=112176 temperature=30.5700
+2026-10-10 15:06:26,064 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:26Z", "measurements": {"co2": {"value": 416.64, "unit": "ppm"}, "temperature": {"value": 21.5, "unit": "C"}}}
+2026-10-10 15:06:26,591 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:26+00:00 | id=112182 co2=416.6400, id=112183 temperature=21.5000
+2026-10-10 15:06:31,053 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:31Z", "measurements": {"co2": {"value": 877.5, "unit": "ppm"}, "temperature": {"value": 19.02, "unit": "C"}}}
+2026-10-10 15:06:31,580 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:31+00:00 | id=112189 co2=877.5000, id=112190 temperature=19.0200
+2026-10-10 15:06:36,078 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:36Z", "measurements": {"co2": {"value": 1342.02, "unit": "ppm"}, "temperature": {"value": 21.39, "unit": "C"}}}
+2026-10-10 15:06:36,622 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:36+00:00 | id=112194 co2=1342.0200, id=112195 temperature=21.3900
+2026-10-10 15:06:41,066 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:41Z", "measurements": {"co2": {"value": 981.13, "unit": "ppm"}, "temperature": {"value": 24.95, "unit": "C"}}}
+2026-10-10 15:06:41,599 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:41+00:00 | id=112201 co2=981.1300, id=112202 temperature=24.9500
+2026-10-10 15:06:46,078 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:46Z", "measurements": {"co2": {"value": 1380.38, "unit": "ppm"}, "temperature": {"value": 29.5, "unit": "C"}}}
+2026-10-10 15:06:46,605 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:46+00:00 | id=112208 co2=1380.3800, id=112209 temperature=29.5000
+2026-10-10 15:06:51,072 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:51Z", "measurements": {"co2": {"value": 507.26, "unit": "ppm"}, "temperature": {"value": 26.69, "unit": "C"}}}
+2026-10-10 15:06:51,614 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:51+00:00 | id=112215 co2=507.2600, id=112216 temperature=26.6900
+2026-10-10 15:06:56,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:06:56Z", "measurements": {"co2": {"value": 1340.8, "unit": "ppm"}, "temperature": {"value": 27.85, "unit": "C"}}}
+2026-10-10 15:06:56,601 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:06:56+00:00 | id=112222 co2=1340.8000, id=112223 temperature=27.8500
+2026-10-10 15:07:01,068 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:01Z", "measurements": {"co2": {"value": 848.45, "unit": "ppm"}, "temperature": {"value": 22.9, "unit": "C"}}}
+2026-10-10 15:07:01,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:01+00:00 | id=112229 co2=848.4500, id=112230 temperature=22.9000
+2026-10-10 15:07:06,073 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:06Z", "measurements": {"co2": {"value": 1235.77, "unit": "ppm"}, "temperature": {"value": 27.99, "unit": "C"}}}
+2026-10-10 15:07:06,630 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:06+00:00 | id=112234 co2=1235.7700, id=112235 temperature=27.9900
+2026-10-10 15:07:11,061 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:11Z", "measurements": {"co2": {"value": 507.32, "unit": "ppm"}, "temperature": {"value": 31.11, "unit": "C"}}}
+2026-10-10 15:07:11,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:11+00:00 | id=112241 co2=507.3200, id=112242 temperature=31.1100
+2026-10-10 15:07:16,083 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:16Z", "measurements": {"co2": {"value": 844.16, "unit": "ppm"}, "temperature": {"value": 24.03, "unit": "C"}}}
+2026-10-10 15:07:16,611 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:16+00:00 | id=112248 co2=844.1600, id=112249 temperature=24.0300
+2026-10-10 15:07:21,070 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:21Z", "measurements": {"co2": {"value": 512.54, "unit": "ppm"}, "temperature": {"value": 22.93, "unit": "C"}}}
+2026-10-10 15:07:21,595 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:21+00:00 | id=112255 co2=512.5400, id=112256 temperature=22.9300
+2026-10-10 15:07:26,072 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:26Z", "measurements": {"co2": {"value": 442.96, "unit": "ppm"}, "temperature": {"value": 21.52, "unit": "C"}}}
+2026-10-10 15:07:26,595 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:26+00:00 | id=112262 co2=442.9600, id=112263 temperature=21.5200
+2026-10-10 15:07:31,067 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:31Z", "measurements": {"co2": {"value": 1243.0, "unit": "ppm"}, "temperature": {"value": 20.17, "unit": "C"}}}
+2026-10-10 15:07:31,592 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:31+00:00 | id=112269 co2=1243.0000, id=112270 temperature=20.1700
+2026-10-10 15:07:36,086 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:36Z", "measurements": {"co2": {"value": 597.52, "unit": "ppm"}, "temperature": {"value": 27.93, "unit": "C"}}}
+2026-10-10 15:07:36,625 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:36+00:00 | id=112276 co2=597.5200, id=112277 temperature=27.9300
+2026-10-10 15:07:41,074 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:41Z", "measurements": {"co2": {"value": 577.17, "unit": "ppm"}, "temperature": {"value": 26.82, "unit": "C"}}}
+2026-10-10 15:07:41,609 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:41+00:00 | id=112283 co2=577.1700, id=112284 temperature=26.8200
+2026-10-10 15:07:46,068 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:46Z", "measurements": {"co2": {"value": 465.89, "unit": "ppm"}, "temperature": {"value": 23.13, "unit": "C"}}}
+2026-10-10 15:07:46,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:46+00:00 | id=112290 co2=465.8900, id=112291 temperature=23.1300
+2026-10-10 15:07:51,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:51Z", "measurements": {"co2": {"value": 623.02, "unit": "ppm"}, "temperature": {"value": 19.99, "unit": "C"}}}
+2026-10-10 15:07:51,603 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:51+00:00 | id=112295 co2=623.0200, id=112296 temperature=19.9900
+2026-10-10 15:07:56,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:07:56Z", "measurements": {"co2": {"value": 974.5, "unit": "ppm"}, "temperature": {"value": 27.15, "unit": "C"}}}
+2026-10-10 15:07:56,603 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:07:56+00:00 | id=112300 co2=974.5000, id=112301 temperature=27.1500
+2026-10-10 15:08:01,069 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:01Z", "measurements": {"co2": {"value": 899.03, "unit": "ppm"}, "temperature": {"value": 22.08, "unit": "C"}}}
+2026-10-10 15:08:01,632 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:01+00:00 | id=112305 co2=899.0300, id=112306 temperature=22.0800
+2026-10-10 15:08:06,069 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:06Z", "measurements": {"co2": {"value": 841.05, "unit": "ppm"}, "temperature": {"value": 31.34, "unit": "C"}}}
+2026-10-10 15:08:06,599 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:06+00:00 | id=112310 co2=841.0500, id=112311 temperature=31.3400
+2026-10-10 15:08:11,078 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:11Z", "measurements": {"co2": {"value": 645.0, "unit": "ppm"}, "temperature": {"value": 21.84, "unit": "C"}}}
+2026-10-10 15:08:11,608 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:11+00:00 | id=112315 co2=645.0000, id=112316 temperature=21.8400
+2026-10-10 15:08:16,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:16Z", "measurements": {"co2": {"value": 1140.09, "unit": "ppm"}, "temperature": {"value": 30.29, "unit": "C"}}}
+2026-10-10 15:08:16,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:16+00:00 | id=112320 co2=1140.0900, id=112321 temperature=30.2900
+2026-10-10 15:08:21,077 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:21Z", "measurements": {"co2": {"value": 870.85, "unit": "ppm"}, "temperature": {"value": 26.83, "unit": "C"}}}
+2026-10-10 15:08:21,597 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:21+00:00 | id=112325 co2=870.8500, id=112326 temperature=26.8300
+2026-10-10 15:08:26,080 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:26Z", "measurements": {"co2": {"value": 612.46, "unit": "ppm"}, "temperature": {"value": 20.76, "unit": "C"}}}
+2026-10-10 15:08:26,603 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:26+00:00 | id=112330 co2=612.4600, id=112331 temperature=20.7600
+2026-10-10 15:08:31,061 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:31Z", "measurements": {"co2": {"value": 1028.14, "unit": "ppm"}, "temperature": {"value": 18.69, "unit": "C"}}}
+2026-10-10 15:08:31,579 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:31+00:00 | id=112335 co2=1028.1400, id=112336 temperature=18.6900
+2026-10-10 15:08:36,069 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:36Z", "measurements": {"co2": {"value": 1389.74, "unit": "ppm"}, "temperature": {"value": 26.68, "unit": "C"}}}
+2026-10-10 15:08:36,608 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:36+00:00 | id=112340 co2=1389.7400, id=112341 temperature=26.6800
+2026-10-10 15:08:41,090 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:41Z", "measurements": {"co2": {"value": 991.95}, "temperature": {"value": 23.72, "unit": "C"}}}
+2026-10-10 15:08:41,091 WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.unit: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:41Z", "measurements": {"co2": {"value": 991.95}, "temperature": {"value": 23.72, "unit": "C"}}}
+2026-10-10 15:08:46,079 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:46Z", "measurements": {"co2": {"value": 1303.15, "unit": "ppm"}, "temperature": {"value": 30.26, "unit": "C"}}}
+2026-10-10 15:08:46,632 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:46+00:00 | id=112348 co2=1303.1500, id=112349 temperature=30.2600
+2026-10-10 15:08:51,058 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:51Z", "measurements": {"co2": {"value": 950.62, "unit": "ppm"}, "temperature": {"value": 30.38, "unit": "C"}}}
+2026-10-10 15:08:51,581 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:51+00:00 | id=112353 co2=950.6200, id=112354 temperature=30.3800
+2026-10-10 15:08:56,084 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:08:56Z", "measurements": {"co2": {"value": 1352.28, "unit": "ppm"}, "temperature": {"value": 24.32, "unit": "C"}}}
+2026-10-10 15:08:56,616 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:08:56+00:00 | id=112358 co2=1352.2800, id=112359 temperature=24.3200
+2026-10-10 15:09:01,077 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:01Z", "measurements": {"co2": {"value": 658.42, "unit": "ppm"}, "temperature": {"value": 26.77, "unit": "C"}}}
+2026-10-10 15:09:01,603 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:01+00:00 | id=112363 co2=658.4200, id=112364 temperature=26.7700
+2026-10-10 15:09:06,080 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:06Z", "measurements": {"co2": {"value": 698.04, "unit": "ppm"}, "temperature": {"value": 18.59, "unit": "C"}}}
+2026-10-10 15:09:06,612 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:06+00:00 | id=112368 co2=698.0400, id=112369 temperature=18.5900
+2026-10-10 15:09:11,069 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:11Z", "measurements": {"co2": {"value": 1367.75, "unit": "ppm"}, "temperature": {"value": 26.1, "unit": "C"}}}
+2026-10-10 15:09:11,598 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:11+00:00 | id=112373 co2=1367.7500, id=112374 temperature=26.1000
+2026-10-10 15:09:16,089 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:16Z", "measurements": {"co2": {"value": 926.22, "unit": "ppm"}, "temperature": {"value": 20.1, "unit": "C"}}}
+2026-10-10 15:09:16,634 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:16+00:00 | id=112378 co2=926.2200, id=112379 temperature=20.1000
+2026-10-10 15:09:21,079 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:21Z", "measurements": {"co2": {"value": 1369.32, "unit": "ppm"}, "temperature": {"value": 26.52, "unit": "C"}}}
+2026-10-10 15:09:21,611 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:21+00:00 | id=112383 co2=1369.3200, id=112384 temperature=26.5200
+2026-10-10 15:09:26,063 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:26Z", "measurements": {"co2": {"value": 622.58, "unit": "ppm"}, "temperature": {"value": 26.94, "unit": "C"}}}
+2026-10-10 15:09:26,591 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:26+00:00 | id=112388 co2=622.5800, id=112389 temperature=26.9400
+2026-10-10 15:09:31,066 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:31Z", "measurements": {"co2": {"value": 1153.32, "unit": "ppm"}, "temperature": {"value": 31.81, "unit": "C"}}}
+2026-10-10 15:09:31,599 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:31+00:00 | id=112393 co2=1153.3200, id=112394 temperature=31.8100
+2026-10-10 15:09:36,072 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:36Z", "measurements": {"co2": {"value": 711.18, "unit": "ppm"}, "temperature": {"value": 29.51, "unit": "C"}}}
+2026-10-10 15:09:36,588 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:36+00:00 | id=112395 co2=711.1800, id=112396 temperature=29.5100
+2026-10-10 15:09:41,090 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:41Z", "measurements": {"co2": {"value": 728.79, "unit": "ppm"}, "temperature": {"value": 20.63, "unit": "C"}}}
+2026-10-10 15:09:41,613 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:41+00:00 | id=112400 co2=728.7900, id=112401 temperature=20.6300
+2026-10-10 15:09:46,087 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:46Z", "measurements": {"co2": {"value": 1280.13, "unit": "ppm"}, "temperature": {"value": 21.46, "unit": "C"}}}
+2026-10-10 15:09:46,615 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:46+00:00 | id=112402 co2=1280.1300, id=112403 temperature=21.4600
+2026-10-10 15:09:51,081 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:51Z", "measurements": {"co2": {"value": 1082.05, "unit": "ppm"}, "temperature": {"value": 28.78, "unit": "C"}}}
+2026-10-10 15:09:51,613 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:51+00:00 | id=112407 co2=1082.0500, id=112408 temperature=28.7800
+2026-10-10 15:09:56,092 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:09:56Z", "measurements": {"co2": {"value": 741.17, "unit": "ppm"}, "temperature": {"value": 18.54, "unit": "C"}}}
+2026-10-10 15:09:56,630 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:09:56+00:00 | id=112412 co2=741.1700, id=112413 temperature=18.5400
+2026-10-10 15:10:01,087 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:01Z", "measurements": {"co2": {"value": 1195.55, "unit": "ppm"}, "temperature": {"value": 31.68, "unit": "C"}}}
+2026-10-10 15:10:01,607 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:01+00:00 | id=112417 co2=1195.5500, id=112418 temperature=31.6800
+2026-10-10 15:10:06,087 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:06Z", "measurements": {"co2": {"value": 897.8, "unit": "ppm"}, "temperature": {"value": 29.83, "unit": "C"}}}
+2026-10-10 15:10:06,630 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:06+00:00 | id=112422 co2=897.8000, id=112423 temperature=29.8300
+2026-10-10 15:10:11,068 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:11Z", "measurements": {"co2": {"value": 418.17, "unit": "ppm"}, "temperature": {"value": 28.27, "unit": "C"}}}
+2026-10-10 15:10:11,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:11+00:00 | id=112427 co2=418.1700, id=112428 temperature=28.2700
+2026-10-10 15:10:16,082 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:16Z", "measurements": {"co2": {"value": 442.0, "unit": "ppm"}, "temperature": {"value": 26.89, "unit": "C"}}}
+2026-10-10 15:10:16,607 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:16+00:00 | id=112432 co2=442.0000, id=112433 temperature=26.8900
+2026-10-10 15:10:21,069 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:21Z", "measurements": {"co2": {"value": 356.38, "unit": "ppm"}, "temperature": {"value": 19.05, "unit": "C"}}}
+2026-10-10 15:10:21,640 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:21+00:00 | id=112437 co2=356.3800, id=112438 temperature=19.0500
+2026-10-10 15:10:26,084 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:26Z", "measurements": {"co2": {"value": 556.47, "unit": "ppm"}, "temperature": {"value": 27.8, "unit": "C"}}}
+2026-10-10 15:10:26,604 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:26+00:00 | id=112442 co2=556.4700, id=112443 temperature=27.8000
+2026-10-10 15:10:31,085 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:31Z", "measurements": {"co2": {"value": 1455.79, "unit": "ppm"}, "temperature": {"value": 23.35, "unit": "C"}}}
+2026-10-10 15:10:31,609 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:31+00:00 | id=112447 co2=1455.7900, id=112448 temperature=23.3500
+2026-10-10 15:10:36,084 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:36Z", "measurements": {"co2": {"value": 353.11, "unit": "ppm"}, "temperature": {"value": 28.08, "unit": "C"}}}
+2026-10-10 15:10:36,619 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:36+00:00 | id=112452 co2=353.1100, id=112453 temperature=28.0800
+2026-10-10 15:10:41,073 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:41Z", "measurements": {"co2": {"value": 500.15, "unit": "ppm"}, "temperature": {"value": 29.15, "unit": "C"}}}
+2026-10-10 15:10:41,602 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:41+00:00 | id=112457 co2=500.1500, id=112458 temperature=29.1500
+2026-10-10 15:10:46,081 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:46Z", "measurements": {"co2": {"value": 1322.46, "unit": "ppm"}, "temperature": {"value": 26.33, "unit": "C"}}}
+2026-10-10 15:10:46,618 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:46+00:00 | id=112462 co2=1322.4600, id=112463 temperature=26.3300
+2026-10-10 15:10:51,095 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:51Z", "measurements": {"co2": {"value": 1178.57, "unit": "ppm"}, "temperature": {"value": 26.84, "unit": "C"}}}
+2026-10-10 15:10:51,620 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:51+00:00 | id=112467 co2=1178.5700, id=112468 temperature=26.8400
+2026-10-10 15:10:56,085 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:10:56Z", "measurements": {"co2": {"value": 1448.87, "unit": "ppm"}, "temperature": {"value": 21.29, "unit": "C"}}}
+2026-10-10 15:10:56,607 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:10:56+00:00 | id=112472 co2=1448.8700, id=112473 temperature=21.2900
+2026-10-10 15:11:01,068 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:01Z", "measurements": {"co2": {"value": 940.82, "unit": "ppm"}, "temperature": {"value": 26.81, "unit": "C"}}}
+2026-10-10 15:11:01,597 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:01+00:00 | id=112477 co2=940.8200, id=112478 temperature=26.8100
+2026-10-10 15:11:06,087 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:06Z", "measurements": {"co2": {"value": 700.65, "unit": "ppm"}, "temperature": {"value": 26.91, "unit": "C"}}}
+2026-10-10 15:11:06,659 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:06+00:00 | id=112482 co2=700.6500, id=112483 temperature=26.9100
+2026-10-10 15:11:11,084 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:11Z", "measurements": {"co2": {"value": 1133.15, "unit": "ppm"}, "temperature": {"value": 21.05, "unit": "C"}}}
+2026-10-10 15:11:11,611 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:11+00:00 | id=112487 co2=1133.1500, id=112488 temperature=21.0500
+2026-10-10 15:11:16,084 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:16Z", "measurements": {"co2": {"value": 1038.32, "unit": "ppm"}, "temperature": {"value": 27.24, "unit": "C"}}}
+2026-10-10 15:11:16,611 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:16+00:00 | id=112492 co2=1038.3200, id=112493 temperature=27.2400
+2026-10-10 15:11:21,082 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:21Z", "measurements": {"co2": {"value": 1149.43, "unit": "ppm"}, "temperature": {"value": 28.02, "unit": "C"}}}
+2026-10-10 15:11:21,608 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:21+00:00 | id=112497 co2=1149.4300, id=112498 temperature=28.0200
+2026-10-10 15:11:26,097 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:26Z", "measurements": {"co2": {"value": 774.1, "unit": "ppm"}, "temperature": {"value": 31.68, "unit": "C"}}}
+2026-10-10 15:11:26,623 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:26+00:00 | id=112502 co2=774.1000, id=112503 temperature=31.6800
+2026-10-10 15:11:31,081 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:31Z", "measurements": {"co2": {"value": 1274.88, "unit": "ppm"}, "temperature": {"value": 31.99, "unit": "C"}}}
+2026-10-10 15:11:31,622 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:31+00:00 | id=112507 co2=1274.8800, id=112508 temperature=31.9900
+2026-10-10 15:11:36,087 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:36Z", "measurements": {"co2": {"value": 747.28, "unit": "ppm"}, "temperature": {"value": 29.24, "unit": "C"}}}
+2026-10-10 15:11:36,628 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:36+00:00 | id=112512 co2=747.2800, id=112513 temperature=29.2400
+2026-10-10 15:11:41,086 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:41Z", "measurements": {"co2": {"value": 1451.81, "unit": "ppm"}, "temperature": {"value": 20.86, "unit": "C"}}}
+2026-10-10 15:11:41,613 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:41+00:00 | id=112517 co2=1451.8100, id=112518 temperature=20.8600
+2026-10-10 15:11:46,094 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:46Z", "measurements": {"co2": {"value": 594.74, "unit": "ppm"}, "temperature": {"value": 27.3, "unit": "C"}}}
+2026-10-10 15:11:46,620 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:46+00:00 | id=112522 co2=594.7400, id=112523 temperature=27.3000
+2026-10-10 15:11:51,075 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:51Z", "measurements": {"co2": {"value": 802.05, "unit": "ppm"}, "temperature": {"value": 18.77, "unit": "C"}}}
+2026-10-10 15:11:51,600 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:51+00:00 | id=112527 co2=802.0500, id=112528 temperature=18.7700
+2026-10-10 15:11:56,082 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:11:56Z", "measurements": {"co2": {"value": 1431.03, "unit": "ppm"}, "temperature": {"value": 25.81, "unit": "C"}}}
+2026-10-10 15:11:56,615 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:11:56+00:00 | id=112532 co2=1431.0300, id=112533 temperature=25.8100
+2026-10-10 15:12:01,101 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:01Z", "measurements": {"co2": {"value": 1411.79, "unit": "ppm"}, "temperature": {"value": 21.57, "unit": "C"}}}
+2026-10-10 15:12:01,633 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:01+00:00 | id=112537 co2=1411.7900, id=112538 temperature=21.5700
+2026-10-10 15:12:06,082 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:06Z", "measurements": {"co2": {"value": 1057.37, "unit": "ppm"}, "temperature": {"value": 22.29, "unit": "C"}}}
+2026-10-10 15:12:06,618 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:06+00:00 | id=112542 co2=1057.3700, id=112543 temperature=22.2900
+2026-10-10 15:12:11,074 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:11Z", "measurements": {"co2": {"value": 1268.11, "unit": "ppm"}, "temperature": {"value": 20.24, "unit": "C"}}}
+2026-10-10 15:12:11,622 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:11+00:00 | id=112547 co2=1268.1100, id=112548 temperature=20.2400
+2026-10-10 15:12:16,090 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:16Z", "measurements": {"co2": {"value": 1369.49, "unit": "ppm"}, "temperature": {"value": 29.38, "unit": "C"}}}
+2026-10-10 15:12:16,619 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:16+00:00 | id=112552 co2=1369.4900, id=112553 temperature=29.3800
+2026-10-10 15:12:21,079 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:21Z", "measurements": {"co2": {"value": 533.07, "unit": "ppm"}, "temperature": {"value": 30.54, "unit": "C"}}}
+2026-10-10 15:12:21,604 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:21+00:00 | id=112557 co2=533.0700, id=112558 temperature=30.5400
+2026-10-10 15:12:26,096 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:26Z", "measurements": {"co2": {"value": 840.25, "unit": "ppm"}, "temperature": {"value": 18.74, "unit": "C"}}}
+2026-10-10 15:12:26,617 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:26+00:00 | id=112562 co2=840.2500, id=112563 temperature=18.7400
+2026-10-10 15:12:31,076 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:31Z", "measurements": {"co2": {"value": 795.8, "unit": "ppm"}, "temperature": {"value": 21.63, "unit": "C"}}}
+2026-10-10 15:12:31,602 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:31+00:00 | id=112567 co2=795.8000, id=112568 temperature=21.6300
+2026-10-10 15:12:36,088 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:36Z", "measurements": {"co2": {"value": 860.46, "unit": "ppm"}, "temperature": {"value": 26.41, "unit": "C"}}}
+2026-10-10 15:12:36,616 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:36+00:00 | id=112572 co2=860.4600, id=112573 temperature=26.4100
+2026-10-10 15:12:41,108 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:41Z", "measurements": {"co2": {"value": 944.16, "unit": "ppm"}, "temperature": {"value": 29.77, "unit": "C"}}}
+2026-10-10 15:12:41,632 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:41+00:00 | id=112577 co2=944.1600, id=112578 temperature=29.7700
+2026-10-10 15:12:46,107 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:46Z", "measurements": {"co2": {"value": 1447.17, "unit": "ppm"}, "temperature": {"value": 31.46, "unit": "C"}}}
+2026-10-10 15:12:46,621 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:46+00:00 | id=112582 co2=1447.1700, id=112583 temperature=31.4600
+2026-10-10 15:12:51,088 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:51Z", "measurements": {"co2": {"value": 1402.66, "unit": "ppm"}, "temperature": {"value": 23.8, "unit": "C"}}}
+2026-10-10 15:12:51,677 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:51+00:00 | id=112587 co2=1402.6600, id=112588 temperature=23.8000
+2026-10-10 15:12:56,092 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:12:56Z", "measurements": {"co2": {"value": 354.28, "unit": "ppm"}, "temperature": {"value": 29.31, "unit": "C"}}}
+2026-10-10 15:12:56,756 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:12:56+00:00 | id=112592 co2=354.2800, id=112593 temperature=29.3100
+2026-10-10 15:13:01,086 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:01Z", "measurements": {"co2": {"value": 731.17, "unit": "ppm"}, "temperature": {"value": 20.38, "unit": "C"}}}
+2026-10-10 15:13:01,618 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:01+00:00 | id=112597 co2=731.1700, id=112598 temperature=20.3800
+2026-10-10 15:13:06,093 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:06Z", "measurements": {"co2": {"value": 919.11, "unit": "ppm"}, "temperature": {"value": 27.31, "unit": "C"}}}
+2026-10-10 15:13:06,686 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:06+00:00 | id=112602 co2=919.1100, id=112603 temperature=27.3100
+2026-10-10 15:13:11,093 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:11Z", "measurements": {"co2": {"value": 389.03, "unit": "ppm"}, "temperature": {"value": 24.44, "unit": "C"}}}
+2026-10-10 15:13:11,627 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:11+00:00 | id=112607 co2=389.0300, id=112608 temperature=24.4400
+2026-10-10 15:13:16,079 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:16Z", "measurements": {"co2": {"value": 949.54, "unit": "ppm"}, "temperature": {"value": 24.95, "unit": "C"}}}
+2026-10-10 15:13:16,581 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:16+00:00 | id=112612 co2=949.5400, id=112613 temperature=24.9500
+2026-10-10 15:13:21,098 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:21Z", "measurements": {"co2": {"value": 431.25, "unit": "ppm"}, "temperature": {"value": 24.22, "unit": "C"}}}
+2026-10-10 15:13:21,604 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:21+00:00 | id=112617 co2=431.2500, id=112618 temperature=24.2200
+2026-10-10 15:13:26,097 INFO [RECIBIDO] iot/sensors/GAS-006/data | {"sensor_id": "GAS-006", "timestamp": "2026-10-10T20:13:26Z", "measurements": {"co2": {"value": 1430.68, "unit": "ppm"}, "temperature": {"value": 23.55, "unit": "C"}}}
+2026-10-10 15:13:26,589 INFO [GUARDADO] GAS-006 | timestamp_utc=2026-10-10T20:13:26+00:00 | id=112622 co2=1430.6800, id=112623 temperature=23.5500

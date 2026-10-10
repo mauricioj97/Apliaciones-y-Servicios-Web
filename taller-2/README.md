@@ -83,7 +83,7 @@ flowchart LR
 
 **Estructura:** un mensaje trae **2 magnitudes** que comparten el timestamp. **Frecuencia:** ~1 mensaje cada 5 s.
 
-**Mensajes inválidos observados en el broker** (ver [`evidencias/registro_mqtt.log`](evidencias/registro_mqtt.log)):
+**Mensajes inválidos observados en el broker** (ver [`evidencias/registro_mqtt.txt`](evidencias/registro_mqtt.txt)):
 
 | Error | Ejemplo real | Veces |
 |---|---|---|
@@ -258,10 +258,10 @@ Todas las evidencias están en la carpeta [`evidencias/`](evidencias/README.md),
 
 | # | Prueba | Resultado | Evidencia | Archivo → función |
 |---|---|---|---|---|
-| 1 | Recepción MQTT | Mensajes recibidos del tópico `iot/sensors/GAS-006/data` | [`registro_mqtt.log`](evidencias/registro_mqtt.log) | `app/mqtt/client.py` → `on_connect`, `on_message` |
-| 2 | Medición válida | Almacenada (2 filas por mensaje) | [`registro_mqtt.log`](evidencias/registro_mqtt.log), [`verificacion_base.txt`](evidencias/verificacion_base.txt) | `app/mqtt/procesador.py` → `procesar_mensaje`; `app/crud/medicion.py` → `crear_mediciones` |
+| 1 | Recepción MQTT | Mensajes recibidos del tópico `iot/sensors/GAS-006/data` | [`registro_mqtt.txt`](evidencias/registro_mqtt.txt) | `app/mqtt/client.py` → `on_connect`, `on_message` |
+| 2 | Medición válida | Almacenada (2 filas por mensaje) | [`registro_mqtt.txt`](evidencias/registro_mqtt.txt), [`verificacion_base.txt`](evidencias/verificacion_base.txt) | `app/mqtt/procesador.py` → `procesar_mensaje`; `app/crud/medicion.py` → `crear_mediciones` |
 | 3 | Sensor inexistente | Rechazado | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt) | `procesador.py` → `procesar_mensaje`; `crud/sensor.py` → `obtener_sensor_por_codigo` |
-| 4 | Unidad incorrecta | Rechazado (prueba + mensajes reales `INVALID_UNIT`) | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt), [`registro_mqtt.log`](evidencias/registro_mqtt.log) | `procesador.py` → `procesar_mensaje` |
+| 4 | Unidad incorrecta | Rechazado (prueba + mensajes reales `INVALID_UNIT`) | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt), [`registro_mqtt.txt`](evidencias/registro_mqtt.txt) | `procesador.py` → `procesar_mensaje` |
 | 5 | Tipo de dato incorrecto | Rechazado (prueba + mensajes reales con valor como texto) | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt) | `schemas/medicion.py` → `Medida` (`strict=True`) |
 | 6 | Magnitud incorrecta | Rechazado | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt) | `crud/sensor_magnitud.py` → `obtener_magnitud_de_sensor` |
 | 7 | Timestamp inválido | Rechazado (fecha imposible, texto, sin UTC) | [`pruebas_rechazo_mqtt.txt`](evidencias/pruebas_rechazo_mqtt.txt) | `schemas/medicion.py` → `timestamp_debe_ser_texto_iso`, `timestamp_debe_estar_en_utc` |

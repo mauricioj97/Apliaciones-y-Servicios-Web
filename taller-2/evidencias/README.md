@@ -4,7 +4,7 @@
 
 | Archivo | Qué contiene | Cómo se generó |
 |---|---|---|
-| [`registro_mqtt.log`](registro_mqtt.log) | Registro completo de la recolección: cada mensaje `[RECIBIDO]`, `[GUARDADO]` o `[RECHAZADO]` con su motivo | La API corriendo (`uvicorn app.main:app`) del **10/10/2026 14:48:55 a 15:13:26** (hora Colombia) |
+| [`registro_mqtt.txt`](registro_mqtt.txt) | Registro completo de la recolección: cada mensaje `[RECIBIDO]`, `[GUARDADO]` o `[RECHAZADO]` con su motivo | La API corriendo (`uvicorn app.main:app`) del **10/10/2026 14:48:55 a 15:13:26** (hora Colombia) |
 | [`verificacion_base.txt`](verificacion_base.txt) | Consultas directas a PostgreSQL: cantidades, JOIN de claves foráneas, regla "todo o nada" y comprobación de que los rechazados no están en la base | `python -m pruebas.verificar_base` |
 | [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) | 11 mensajes inválidos de prueba procesados por la misma función del cliente MQTT | `python -m pruebas.probar_rechazos` |
 | [`resultados_endpoints.md`](resultados_endpoints.md) | Tabla con las 21 solicitudes HTTP, código esperado y obtenido | `python -m pruebas.probar_endpoints` |
@@ -49,7 +49,7 @@
 - **Código HTTP:** no aplica (MQTT).
 - **Archivo / función:** `app/mqtt/client.py` → `crear_cliente`, `on_connect`, `on_message`; arranque en `app/main.py` → `ciclo_de_vida`.
 - **Explicación:** el cliente paho-mqtt se conecta al broker, se suscribe al tópico asignado y por cada mensaje ejecuta `on_message`.
-- **Evidencia:** [`registro_mqtt.log`](registro_mqtt.log) (líneas `[RECIBIDO]`).
+- **Evidencia:** [`registro_mqtt.txt`](registro_mqtt.txt) (líneas `[RECIBIDO]`).
 
 ### 2. Medición válida
 - **Entrada:** `{"sensor_id": "GAS-006", "timestamp": "2026-10-10T19:48:55Z", "measurements": {"co2": {"value": 1168.91, "unit": "ppm"}, "temperature": {"value": 19.34, "unit": "C"}}}`
@@ -76,14 +76,14 @@
 - **Resultado:** **rechazado** — `Unidad incorrecta en 'temperature': llego 'F' y se esperaba 'C'` / `Unidad incorrecta en 'co2': llego 'INVALID_UNIT' y se esperaba 'ppm'`
 - **Archivo / función:** `app/mqtt/procesador.py` → `procesar_mensaje` (compara con `SensorMagnitud.unidad`).
 - **Explicación:** la unidad recibida debe ser igual a la configurada en `sensor_magnitudes`. Aunque `co2` estuviera bien, el mensaje completo se descarta.
-- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 4) y [`registro_mqtt.log`](registro_mqtt.log); `verificacion_base.txt` confirma que `2026-10-10T19:49:25Z` **no** está en la base.
+- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 4) y [`registro_mqtt.txt`](registro_mqtt.txt); `verificacion_base.txt` confirma que `2026-10-10T19:49:25Z` **no** está en la base.
 
 ### 5. Tipo de dato incorrecto
 - **Entrada (prueba y real del broker):** `"co2": {"value": "730.94", "unit": "ppm"}` (número enviado como texto)
 - **Resultado:** **rechazado** — `Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number`
 - **Archivo / función:** `app/schemas/medicion.py` → clase `Medida` (`strict=True`, `value: float`).
 - **Explicación:** en modo estricto Pydantic no convierte texto a número, por eso detecta el tipo incorrecto.
-- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 5) y [`registro_mqtt.log`](registro_mqtt.log) (19:53:11Z, 19:55:46Z, 20:01:16Z).
+- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 5) y [`registro_mqtt.txt`](registro_mqtt.txt) (19:53:11Z, 19:55:46Z, 20:01:16Z).
 
 ### 6. Magnitud incorrecta
 - **Entrada (prueba):** `"co2": {...}, "humidity": {"value": 50, "unit": "%"}`
@@ -91,14 +91,14 @@
 - **Resultado:** **rechazado** — `Magnitud incorrecta: 'humidity' no esta configurada para GAS-006`
 - **Archivo / función:** `app/crud/sensor_magnitud.py` → `obtener_magnitud_de_sensor`; `app/mqtt/procesador.py` → `procesar_mensaje`.
 - **Explicación:** GAS-006 solo tiene `co2` y `temperature` en `sensor_magnitudes`; cualquier otra magnitud invalida el mensaje completo.
-- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 6) y [`registro_mqtt.log`](registro_mqtt.log) (19:58:16Z).
+- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (prueba 6) y [`registro_mqtt.txt`](registro_mqtt.txt) (19:58:16Z).
 
 ### 7. Timestamp inválido
 - **Entradas:** `"2026-13-45T25:61:00Z"` (fecha imposible), `"ayer en la tarde"` (texto), `"2000-01-01T00:00:00"` (sin UTC) y, real del broker, `"not-a-timestamp"`.
 - **Resultado:** **rechazado** — `timestamp: Value error, '...' no es una fecha ISO 8601 valida` / `el timestamp debe estar en UTC (terminar en 'Z' o '+00:00')`
 - **Archivo / función:** `app/schemas/medicion.py` → `MensajeSensor.timestamp_debe_ser_texto_iso` y `MensajeSensor.timestamp_debe_estar_en_utc`.
 - **Explicación:** el timestamp debe ser texto ISO 8601 válido y estar en UTC.
-- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (pruebas 7a, 7b, 7c) y [`registro_mqtt.log`](registro_mqtt.log).
+- **Evidencia:** [`pruebas_rechazo_mqtt.txt`](pruebas_rechazo_mqtt.txt) (pruebas 7a, 7b, 7c) y [`registro_mqtt.txt`](registro_mqtt.txt).
 
 ### 8. Consulta por ID existente
 - **Entrada:** `GET /sensores/33` y `GET /mediciones/112623`
