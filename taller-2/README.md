@@ -287,7 +287,19 @@ Resumen automático de las 21 solicitudes HTTP: [`evidencias/resultados_endpoint
 - **Rama:** `taller-2`
 - **Evidencia de commits:**
 
-HISTORIAL_COMMITS
+| Commit | Fecha | Autor | Mensaje |
+|---|---|---|---|
+| `8efd571` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: configuracion inicial (requirements, .gitignore, .env.example y modelo de datos) |
+| `bf2f787` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: conexion a PostgreSQL y modelos ORM con claves foraneas |
+| `c396432` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: esquemas Pydantic para validar el payload MQTT y responder en hora de Colombia |
+| `b7d50c0` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: capa CRUD (solo lectura de catalogo, crear y consultar mediciones) |
+| `6bfdf3d` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: consumidor MQTT con validaciones de negocio y almacenamiento |
+| `163f1e9` | 2026-10-10 14:49 | Mauricio Jojoa | Taller 2: endpoints FastAPI de sensores, magnitudes y mediciones |
+| `d5ba834` | 2026-10-10 14:51 | Mauricio Jojoa | Taller 2: scripts de prueba para rechazos MQTT, endpoints y verificacion en la base |
+| `ab4b4af` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: evidencias de recoleccion MQTT (24,5 min), rechazos, verificacion en base y pruebas HTTP |
+| `e54aaae` | 2026-10-10 15:15 | Mauricio Jojoa | Taller 2: informe README del taller e indice de ramas en la raiz |
+
+Historial completo: https://github.com/mauricioj97/Apliaciones-y-Servicios-Web/commits/taller-2
 
 ### Aporte de cada integrante
 
