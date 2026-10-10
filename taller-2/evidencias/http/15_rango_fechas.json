@@ -1,0 +1,947 @@
+{
+  "prueba": "Rango de fechas (5 minutos)",
+  "url": "http://127.0.0.1:8000/sensores/33/mediciones?desde=2026-10-10T14%3A48%3A00&hasta=2026-10-10T14%3A53%3A00",
+  "codigo_http": 200,
+  "respuesta": [
+    {
+      "id": 111096,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 26.53,
+      "timestamp_utc": "2026-10-10T19:52:56Z",
+      "timestamp_colombia": "2026-10-10 14:52:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:56 (UTC-05:00)"
+    },
+    {
+      "id": 111095,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 925.17,
+      "timestamp_utc": "2026-10-10T19:52:56Z",
+      "timestamp_colombia": "2026-10-10 14:52:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:56 (UTC-05:00)"
+    },
+    {
+      "id": 111089,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 22.35,
+      "timestamp_utc": "2026-10-10T19:52:50Z",
+      "timestamp_colombia": "2026-10-10 14:52:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:51 (UTC-05:00)"
+    },
+    {
+      "id": 111088,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1393.02,
+      "timestamp_utc": "2026-10-10T19:52:50Z",
+      "timestamp_colombia": "2026-10-10 14:52:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:51 (UTC-05:00)"
+    },
+    {
+      "id": 111085,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 23.94,
+      "timestamp_utc": "2026-10-10T19:52:46Z",
+      "timestamp_colombia": "2026-10-10 14:52:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:46 (UTC-05:00)"
+    },
+    {
+      "id": 111084,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1134.37,
+      "timestamp_utc": "2026-10-10T19:52:46Z",
+      "timestamp_colombia": "2026-10-10 14:52:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:46 (UTC-05:00)"
+    },
+    {
+      "id": 111078,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 23.22,
+      "timestamp_utc": "2026-10-10T19:52:41Z",
+      "timestamp_colombia": "2026-10-10 14:52:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:41 (UTC-05:00)"
+    },
+    {
+      "id": 111077,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 957.52,
+      "timestamp_utc": "2026-10-10T19:52:41Z",
+      "timestamp_colombia": "2026-10-10 14:52:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:41 (UTC-05:00)"
+    },
+    {
+      "id": 111071,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 19.68,
+      "timestamp_utc": "2026-10-10T19:52:36Z",
+      "timestamp_colombia": "2026-10-10 14:52:36 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:36 (UTC-05:00)"
+    },
+    {
+      "id": 111070,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 430.41,
+      "timestamp_utc": "2026-10-10T19:52:36Z",
+      "timestamp_colombia": "2026-10-10 14:52:36 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:36 (UTC-05:00)"
+    },
+    {
+      "id": 111064,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 28.87,
+      "timestamp_utc": "2026-10-10T19:52:31Z",
+      "timestamp_colombia": "2026-10-10 14:52:31 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:31 (UTC-05:00)"
+    },
+    {
+      "id": 111063,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1362.38,
+      "timestamp_utc": "2026-10-10T19:52:31Z",
+      "timestamp_colombia": "2026-10-10 14:52:31 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:31 (UTC-05:00)"
+    },
+    {
+      "id": 111054,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.09,
+      "timestamp_utc": "2026-10-10T19:52:26Z",
+      "timestamp_colombia": "2026-10-10 14:52:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:26 (UTC-05:00)"
+    },
+    {
+      "id": 111053,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1396.95,
+      "timestamp_utc": "2026-10-10T19:52:26Z",
+      "timestamp_colombia": "2026-10-10 14:52:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:26 (UTC-05:00)"
+    },
+    {
+      "id": 111044,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 21.05,
+      "timestamp_utc": "2026-10-10T19:52:21Z",
+      "timestamp_colombia": "2026-10-10 14:52:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:21 (UTC-05:00)"
+    },
+    {
+      "id": 111043,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 625.83,
+      "timestamp_utc": "2026-10-10T19:52:21Z",
+      "timestamp_colombia": "2026-10-10 14:52:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:21 (UTC-05:00)"
+    },
+    {
+      "id": 111034,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 30.17,
+      "timestamp_utc": "2026-10-10T19:52:16Z",
+      "timestamp_colombia": "2026-10-10 14:52:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:16 (UTC-05:00)"
+    },
+    {
+      "id": 111033,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1482.95,
+      "timestamp_utc": "2026-10-10T19:52:16Z",
+      "timestamp_colombia": "2026-10-10 14:52:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:16 (UTC-05:00)"
+    },
+    {
+      "id": 111024,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 22.11,
+      "timestamp_utc": "2026-10-10T19:52:11Z",
+      "timestamp_colombia": "2026-10-10 14:52:11 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:11 (UTC-05:00)"
+    },
+    {
+      "id": 111023,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 628.1,
+      "timestamp_utc": "2026-10-10T19:52:11Z",
+      "timestamp_colombia": "2026-10-10 14:52:11 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:11 (UTC-05:00)"
+    },
+    {
+      "id": 111005,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 21.42,
+      "timestamp_utc": "2026-10-10T19:52:06Z",
+      "timestamp_colombia": "2026-10-10 14:52:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:06 (UTC-05:00)"
+    },
+    {
+      "id": 111004,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 763.65,
+      "timestamp_utc": "2026-10-10T19:52:06Z",
+      "timestamp_colombia": "2026-10-10 14:52:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:06 (UTC-05:00)"
+    },
+    {
+      "id": 110998,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 29.43,
+      "timestamp_utc": "2026-10-10T19:52:01Z",
+      "timestamp_colombia": "2026-10-10 14:52:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:01 (UTC-05:00)"
+    },
+    {
+      "id": 110997,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 704.28,
+      "timestamp_utc": "2026-10-10T19:52:01Z",
+      "timestamp_colombia": "2026-10-10 14:52:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:52:01 (UTC-05:00)"
+    },
+    {
+      "id": 110991,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 24.44,
+      "timestamp_utc": "2026-10-10T19:51:56Z",
+      "timestamp_colombia": "2026-10-10 14:51:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:56 (UTC-05:00)"
+    },
+    {
+      "id": 110990,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 844.12,
+      "timestamp_utc": "2026-10-10T19:51:56Z",
+      "timestamp_colombia": "2026-10-10 14:51:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:56 (UTC-05:00)"
+    },
+    {
+      "id": 110984,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 22.93,
+      "timestamp_utc": "2026-10-10T19:51:51Z",
+      "timestamp_colombia": "2026-10-10 14:51:51 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:51 (UTC-05:00)"
+    },
+    {
+      "id": 110983,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 880.64,
+      "timestamp_utc": "2026-10-10T19:51:51Z",
+      "timestamp_colombia": "2026-10-10 14:51:51 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:51 (UTC-05:00)"
+    },
+    {
+      "id": 110977,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.56,
+      "timestamp_utc": "2026-10-10T19:51:46Z",
+      "timestamp_colombia": "2026-10-10 14:51:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:46 (UTC-05:00)"
+    },
+    {
+      "id": 110976,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1126.15,
+      "timestamp_utc": "2026-10-10T19:51:46Z",
+      "timestamp_colombia": "2026-10-10 14:51:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:46 (UTC-05:00)"
+    },
+    {
+      "id": 110970,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 28.84,
+      "timestamp_utc": "2026-10-10T19:51:40Z",
+      "timestamp_colombia": "2026-10-10 14:51:40 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:41 (UTC-05:00)"
+    },
+    {
+      "id": 110969,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1017.92,
+      "timestamp_utc": "2026-10-10T19:51:40Z",
+      "timestamp_colombia": "2026-10-10 14:51:40 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:41 (UTC-05:00)"
+    },
+    {
+      "id": 110963,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.23,
+      "timestamp_utc": "2026-10-10T19:51:35Z",
+      "timestamp_colombia": "2026-10-10 14:51:35 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:36 (UTC-05:00)"
+    },
+    {
+      "id": 110962,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1142.13,
+      "timestamp_utc": "2026-10-10T19:51:35Z",
+      "timestamp_colombia": "2026-10-10 14:51:35 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:36 (UTC-05:00)"
+    },
+    {
+      "id": 110956,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 26.53,
+      "timestamp_utc": "2026-10-10T19:51:30Z",
+      "timestamp_colombia": "2026-10-10 14:51:30 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:31 (UTC-05:00)"
+    },
+    {
+      "id": 110955,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1360.63,
+      "timestamp_utc": "2026-10-10T19:51:30Z",
+      "timestamp_colombia": "2026-10-10 14:51:30 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:31 (UTC-05:00)"
+    },
+    {
+      "id": 110949,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 31.91,
+      "timestamp_utc": "2026-10-10T19:51:26Z",
+      "timestamp_colombia": "2026-10-10 14:51:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:26 (UTC-05:00)"
+    },
+    {
+      "id": 110948,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1115.8,
+      "timestamp_utc": "2026-10-10T19:51:26Z",
+      "timestamp_colombia": "2026-10-10 14:51:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:26 (UTC-05:00)"
+    },
+    {
+      "id": 110942,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 27.17,
+      "timestamp_utc": "2026-10-10T19:51:21Z",
+      "timestamp_colombia": "2026-10-10 14:51:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:21 (UTC-05:00)"
+    },
+    {
+      "id": 110941,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 891.56,
+      "timestamp_utc": "2026-10-10T19:51:21Z",
+      "timestamp_colombia": "2026-10-10 14:51:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:21 (UTC-05:00)"
+    },
+    {
+      "id": 110935,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 31.76,
+      "timestamp_utc": "2026-10-10T19:51:16Z",
+      "timestamp_colombia": "2026-10-10 14:51:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:16 (UTC-05:00)"
+    },
+    {
+      "id": 110934,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1002.22,
+      "timestamp_utc": "2026-10-10T19:51:16Z",
+      "timestamp_colombia": "2026-10-10 14:51:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:16 (UTC-05:00)"
+    },
+    {
+      "id": 110928,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.93,
+      "timestamp_utc": "2026-10-10T19:51:10Z",
+      "timestamp_colombia": "2026-10-10 14:51:10 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:11 (UTC-05:00)"
+    },
+    {
+      "id": 110927,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 850.76,
+      "timestamp_utc": "2026-10-10T19:51:10Z",
+      "timestamp_colombia": "2026-10-10 14:51:10 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:11 (UTC-05:00)"
+    },
+    {
+      "id": 110921,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 29.2,
+      "timestamp_utc": "2026-10-10T19:51:06Z",
+      "timestamp_colombia": "2026-10-10 14:51:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:06 (UTC-05:00)"
+    },
+    {
+      "id": 110920,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 989.0,
+      "timestamp_utc": "2026-10-10T19:51:06Z",
+      "timestamp_colombia": "2026-10-10 14:51:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:06 (UTC-05:00)"
+    },
+    {
+      "id": 110914,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 30.69,
+      "timestamp_utc": "2026-10-10T19:51:01Z",
+      "timestamp_colombia": "2026-10-10 14:51:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:01 (UTC-05:00)"
+    },
+    {
+      "id": 110913,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 679.86,
+      "timestamp_utc": "2026-10-10T19:51:01Z",
+      "timestamp_colombia": "2026-10-10 14:51:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:51:01 (UTC-05:00)"
+    },
+    {
+      "id": 110907,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 19.32,
+      "timestamp_utc": "2026-10-10T19:50:56Z",
+      "timestamp_colombia": "2026-10-10 14:50:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:56 (UTC-05:00)"
+    },
+    {
+      "id": 110906,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1318.41,
+      "timestamp_utc": "2026-10-10T19:50:56Z",
+      "timestamp_colombia": "2026-10-10 14:50:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:56 (UTC-05:00)"
+    },
+    {
+      "id": 110900,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.97,
+      "timestamp_utc": "2026-10-10T19:50:50Z",
+      "timestamp_colombia": "2026-10-10 14:50:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:51 (UTC-05:00)"
+    },
+    {
+      "id": 110899,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1073.32,
+      "timestamp_utc": "2026-10-10T19:50:50Z",
+      "timestamp_colombia": "2026-10-10 14:50:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:51 (UTC-05:00)"
+    },
+    {
+      "id": 110893,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 22.93,
+      "timestamp_utc": "2026-10-10T19:50:46Z",
+      "timestamp_colombia": "2026-10-10 14:50:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:46 (UTC-05:00)"
+    },
+    {
+      "id": 110892,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1143.18,
+      "timestamp_utc": "2026-10-10T19:50:46Z",
+      "timestamp_colombia": "2026-10-10 14:50:46 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:46 (UTC-05:00)"
+    },
+    {
+      "id": 110886,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 29.37,
+      "timestamp_utc": "2026-10-10T19:50:41Z",
+      "timestamp_colombia": "2026-10-10 14:50:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:41 (UTC-05:00)"
+    },
+    {
+      "id": 110885,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 478.37,
+      "timestamp_utc": "2026-10-10T19:50:41Z",
+      "timestamp_colombia": "2026-10-10 14:50:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:41 (UTC-05:00)"
+    },
+    {
+      "id": 110879,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 29.26,
+      "timestamp_utc": "2026-10-10T19:50:36Z",
+      "timestamp_colombia": "2026-10-10 14:50:36 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:36 (UTC-05:00)"
+    },
+    {
+      "id": 110878,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1448.02,
+      "timestamp_utc": "2026-10-10T19:50:36Z",
+      "timestamp_colombia": "2026-10-10 14:50:36 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:36 (UTC-05:00)"
+    },
+    {
+      "id": 110872,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 26.64,
+      "timestamp_utc": "2026-10-10T19:50:30Z",
+      "timestamp_colombia": "2026-10-10 14:50:30 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:31 (UTC-05:00)"
+    },
+    {
+      "id": 110871,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 577.31,
+      "timestamp_utc": "2026-10-10T19:50:30Z",
+      "timestamp_colombia": "2026-10-10 14:50:30 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:31 (UTC-05:00)"
+    },
+    {
+      "id": 110865,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.47,
+      "timestamp_utc": "2026-10-10T19:50:25Z",
+      "timestamp_colombia": "2026-10-10 14:50:25 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:26 (UTC-05:00)"
+    },
+    {
+      "id": 110864,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1036.08,
+      "timestamp_utc": "2026-10-10T19:50:25Z",
+      "timestamp_colombia": "2026-10-10 14:50:25 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:26 (UTC-05:00)"
+    },
+    {
+      "id": 110858,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 21.45,
+      "timestamp_utc": "2026-10-10T19:50:21Z",
+      "timestamp_colombia": "2026-10-10 14:50:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:21 (UTC-05:00)"
+    },
+    {
+      "id": 110857,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1109.09,
+      "timestamp_utc": "2026-10-10T19:50:21Z",
+      "timestamp_colombia": "2026-10-10 14:50:21 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:21 (UTC-05:00)"
+    },
+    {
+      "id": 110851,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 23.9,
+      "timestamp_utc": "2026-10-10T19:50:16Z",
+      "timestamp_colombia": "2026-10-10 14:50:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:16 (UTC-05:00)"
+    },
+    {
+      "id": 110850,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 454.42,
+      "timestamp_utc": "2026-10-10T19:50:16Z",
+      "timestamp_colombia": "2026-10-10 14:50:16 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:16 (UTC-05:00)"
+    },
+    {
+      "id": 110844,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 18.4,
+      "timestamp_utc": "2026-10-10T19:50:11Z",
+      "timestamp_colombia": "2026-10-10 14:50:11 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:11 (UTC-05:00)"
+    },
+    {
+      "id": 110843,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 730.65,
+      "timestamp_utc": "2026-10-10T19:50:11Z",
+      "timestamp_colombia": "2026-10-10 14:50:11 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:11 (UTC-05:00)"
+    },
+    {
+      "id": 110837,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 18.49,
+      "timestamp_utc": "2026-10-10T19:50:05Z",
+      "timestamp_colombia": "2026-10-10 14:50:05 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:06 (UTC-05:00)"
+    },
+    {
+      "id": 110836,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 608.37,
+      "timestamp_utc": "2026-10-10T19:50:05Z",
+      "timestamp_colombia": "2026-10-10 14:50:05 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:06 (UTC-05:00)"
+    },
+    {
+      "id": 110830,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 21.5,
+      "timestamp_utc": "2026-10-10T19:50:00Z",
+      "timestamp_colombia": "2026-10-10 14:50:00 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:01 (UTC-05:00)"
+    },
+    {
+      "id": 110829,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1406.19,
+      "timestamp_utc": "2026-10-10T19:50:00Z",
+      "timestamp_colombia": "2026-10-10 14:50:00 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:50:01 (UTC-05:00)"
+    },
+    {
+      "id": 110826,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 20.04,
+      "timestamp_utc": "2026-10-10T19:49:56Z",
+      "timestamp_colombia": "2026-10-10 14:49:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:56 (UTC-05:00)"
+    },
+    {
+      "id": 110825,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 352.55,
+      "timestamp_utc": "2026-10-10T19:49:56Z",
+      "timestamp_colombia": "2026-10-10 14:49:56 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:56 (UTC-05:00)"
+    },
+    {
+      "id": 110819,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 21.75,
+      "timestamp_utc": "2026-10-10T19:49:50Z",
+      "timestamp_colombia": "2026-10-10 14:49:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:51 (UTC-05:00)"
+    },
+    {
+      "id": 110818,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 908.69,
+      "timestamp_utc": "2026-10-10T19:49:50Z",
+      "timestamp_colombia": "2026-10-10 14:49:50 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:51 (UTC-05:00)"
+    },
+    {
+      "id": 110812,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 28.67,
+      "timestamp_utc": "2026-10-10T19:49:45Z",
+      "timestamp_colombia": "2026-10-10 14:49:45 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:46 (UTC-05:00)"
+    },
+    {
+      "id": 110811,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 852.05,
+      "timestamp_utc": "2026-10-10T19:49:45Z",
+      "timestamp_colombia": "2026-10-10 14:49:45 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:46 (UTC-05:00)"
+    },
+    {
+      "id": 110805,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.51,
+      "timestamp_utc": "2026-10-10T19:49:41Z",
+      "timestamp_colombia": "2026-10-10 14:49:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:41 (UTC-05:00)"
+    },
+    {
+      "id": 110804,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1133.12,
+      "timestamp_utc": "2026-10-10T19:49:41Z",
+      "timestamp_colombia": "2026-10-10 14:49:41 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:41 (UTC-05:00)"
+    },
+    {
+      "id": 110798,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 30.74,
+      "timestamp_utc": "2026-10-10T19:49:35Z",
+      "timestamp_colombia": "2026-10-10 14:49:35 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:36 (UTC-05:00)"
+    },
+    {
+      "id": 110797,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1203.97,
+      "timestamp_utc": "2026-10-10T19:49:35Z",
+      "timestamp_colombia": "2026-10-10 14:49:35 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:36 (UTC-05:00)"
+    },
+    {
+      "id": 110781,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 23.01,
+      "timestamp_utc": "2026-10-10T19:49:20Z",
+      "timestamp_colombia": "2026-10-10 14:49:20 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:21 (UTC-05:00)"
+    },
+    {
+      "id": 110780,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1316.85,
+      "timestamp_utc": "2026-10-10T19:49:20Z",
+      "timestamp_colombia": "2026-10-10 14:49:20 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:21 (UTC-05:00)"
+    },
+    {
+      "id": 110774,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 26.69,
+      "timestamp_utc": "2026-10-10T19:49:15Z",
+      "timestamp_colombia": "2026-10-10 14:49:15 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:16 (UTC-05:00)"
+    },
+    {
+      "id": 110773,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 476.02,
+      "timestamp_utc": "2026-10-10T19:49:15Z",
+      "timestamp_colombia": "2026-10-10 14:49:15 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:16 (UTC-05:00)"
+    },
+    {
+      "id": 110767,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 27.91,
+      "timestamp_utc": "2026-10-10T19:49:10Z",
+      "timestamp_colombia": "2026-10-10 14:49:10 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:11 (UTC-05:00)"
+    },
+    {
+      "id": 110766,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 462.92,
+      "timestamp_utc": "2026-10-10T19:49:10Z",
+      "timestamp_colombia": "2026-10-10 14:49:10 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:11 (UTC-05:00)"
+    },
+    {
+      "id": 110760,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 25.06,
+      "timestamp_utc": "2026-10-10T19:49:06Z",
+      "timestamp_colombia": "2026-10-10 14:49:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:06 (UTC-05:00)"
+    },
+    {
+      "id": 110759,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1069.05,
+      "timestamp_utc": "2026-10-10T19:49:06Z",
+      "timestamp_colombia": "2026-10-10 14:49:06 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:06 (UTC-05:00)"
+    },
+    {
+      "id": 110753,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 31.8,
+      "timestamp_utc": "2026-10-10T19:49:01Z",
+      "timestamp_colombia": "2026-10-10 14:49:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:01 (UTC-05:00)"
+    },
+    {
+      "id": 110752,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 907.01,
+      "timestamp_utc": "2026-10-10T19:49:01Z",
+      "timestamp_colombia": "2026-10-10 14:49:01 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:49:01 (UTC-05:00)"
+    },
+    {
+      "id": 110746,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 19.34,
+      "timestamp_utc": "2026-10-10T19:48:55Z",
+      "timestamp_colombia": "2026-10-10 14:48:55 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:48:56 (UTC-05:00)"
+    },
+    {
+      "id": 110745,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1168.91,
+      "timestamp_utc": "2026-10-10T19:48:55Z",
+      "timestamp_colombia": "2026-10-10 14:48:55 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 14:48:56 (UTC-05:00)"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "prueba": "Medicion por ID inexistente",
+  "url": "http://127.0.0.1:8000/mediciones/999999999",
+  "codigo_http": 404,
+  "respuesta": {
+    "detail": "No existe una medicion con id 999999999"
+  }
+}

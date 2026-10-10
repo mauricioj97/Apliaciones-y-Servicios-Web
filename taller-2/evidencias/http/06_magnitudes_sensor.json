@@ -1,0 +1,23 @@
+{
+  "prueba": "Magnitudes del sensor (claves foraneas)",
+  "url": "http://127.0.0.1:8000/sensores/33/magnitudes",
+  "codigo_http": 200,
+  "respuesta": [
+    {
+      "id": 87,
+      "sensor_id": 33,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor_minimo": -10.0,
+      "valor_maximo": 60.0
+    },
+    {
+      "id": 88,
+      "sensor_id": 33,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor_minimo": 300.0,
+      "valor_maximo": 5000.0
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "prueba": "Rango desde > hasta",
+  "url": "http://127.0.0.1:8000/sensores/33/mediciones?desde=2026-10-10T14%3A53%3A00&hasta=2026-10-10T14%3A48%3A00",
+  "codigo_http": 400,
+  "respuesta": {
+    "detail": "Rango de fechas invalido: 'desde' no puede ser mayor que 'hasta'"
+  }
+}

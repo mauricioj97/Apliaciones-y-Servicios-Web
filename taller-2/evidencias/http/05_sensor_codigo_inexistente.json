@@ -1,0 +1,8 @@
+{
+  "prueba": "Sensor por codigo inexistente",
+  "url": "http://127.0.0.1:8000/sensores/por-codigo/NO-EXISTE",
+  "codigo_http": 404,
+  "respuesta": {
+    "detail": "No existe un sensor con codigo 'NO-EXISTE'"
+  }
+}

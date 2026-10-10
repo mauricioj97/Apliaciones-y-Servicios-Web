@@ -1,0 +1,21 @@
+{
+  "prueba": "limit=0 (fuera del minimo)",
+  "url": "http://127.0.0.1:8000/sensores/33/mediciones?limit=0",
+  "codigo_http": 422,
+  "respuesta": {
+    "detail": [
+      {
+        "type": "greater_than_equal",
+        "loc": [
+          "query",
+          "limit"
+        ],
+        "msg": "Input should be greater than or equal to 1",
+        "input": "0",
+        "ctx": {
+          "ge": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "prueba": "Magnitud que el sensor no mide",
+  "url": "http://127.0.0.1:8000/sensores/33/mediciones?magnitud=humidity",
+  "codigo_http": 400,
+  "respuesta": {
+    "detail": "El sensor 33 no mide la magnitud 'humidity'"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "prueba": "Sensor-magnitud por ID",
+  "url": "http://127.0.0.1:8000/sensor-magnitudes/88",
+  "codigo_http": 200,
+  "respuesta": {
+    "id": 88,
+    "sensor_id": 33,
+    "magnitud": "co2",
+    "unidad": "ppm",
+    "valor_minimo": 300.0,
+    "valor_maximo": 5000.0
+  }
+}

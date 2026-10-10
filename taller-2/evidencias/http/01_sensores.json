@@ -1,0 +1,232 @@
+{
+  "prueba": "Listar sensores",
+  "url": "http://127.0.0.1:8000/sensores",
+  "codigo_http": 200,
+  "respuesta": [
+    {
+      "id": 1,
+      "codigo": "AQ-001",
+      "nombre": "Calidad de aire interior",
+      "categoria": "AIRE",
+      "ubicacion": "Biblioteca - sala de lectura",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 2,
+      "codigo": "AQ-002",
+      "nombre": "Material particulado",
+      "categoria": "AIRE",
+      "ubicacion": "Acceso principal - exterior",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 3,
+      "codigo": "AQ-003",
+      "nombre": "Calidad de aire multigas",
+      "categoria": "AIRE",
+      "ubicacion": "Edificio A - aula 204",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 4,
+      "codigo": "GAS-001",
+      "nombre": "Sensor de monóxido de carbono",
+      "categoria": "GAS",
+      "ubicacion": "Estacionamiento cubierto",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 5,
+      "codigo": "GAS-002",
+      "nombre": "Sensor de metano",
+      "categoria": "GAS",
+      "ubicacion": "Laboratorio de energía",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 6,
+      "codigo": "GAS-003",
+      "nombre": "Sensor industrial NO2 y CO",
+      "categoria": "GAS",
+      "ubicacion": "Taller mecánico",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 7,
+      "codigo": "GAS-004",
+      "nombre": "Sensor de sulfuro de hidrógeno",
+      "categoria": "GAS",
+      "ubicacion": "Planta de tratamiento",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 8,
+      "codigo": "GAS-005",
+      "nombre": "Sensor de amoniaco",
+      "categoria": "GAS",
+      "ubicacion": "Laboratorio de química",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 9,
+      "codigo": "WQ-001",
+      "nombre": "Sensor de pH",
+      "categoria": "AGUA",
+      "ubicacion": "Tanque de agua norte",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 10,
+      "codigo": "WQ-002",
+      "nombre": "Sensor de conductividad",
+      "categoria": "AGUA",
+      "ubicacion": "Canal de entrada",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 11,
+      "codigo": "WQ-003",
+      "nombre": "Sensor de oxígeno disuelto",
+      "categoria": "AGUA",
+      "ubicacion": "Estanque experimental",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 12,
+      "codigo": "WQ-004",
+      "nombre": "Sensor de turbidez",
+      "categoria": "AGUA",
+      "ubicacion": "Canal de salida",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 13,
+      "codigo": "WQ-005",
+      "nombre": "Sensor de sólidos disueltos",
+      "categoria": "AGUA",
+      "ubicacion": "Cisterna central",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 14,
+      "codigo": "ENV-001",
+      "nombre": "Sensor ambiental general",
+      "categoria": "AMBIENTE",
+      "ubicacion": "Azotea - estación meteorológica",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 15,
+      "codigo": "ENV-002",
+      "nombre": "Sensor ambiental con luminosidad",
+      "categoria": "AMBIENTE",
+      "ubicacion": "Invernadero universitario",
+      "activo": true,
+      "fecha_registro": "2026-10-07 11:42:11 (UTC-05:00)"
+    },
+    {
+      "id": 31,
+      "codigo": "AQ-004",
+      "nombre": "Calidad de aire en aulas",
+      "categoria": "AIRE",
+      "ubicacion": "Edificio B - aula 101",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 32,
+      "codigo": "AQ-005",
+      "nombre": "Partículas en laboratorio",
+      "categoria": "AIRE",
+      "ubicacion": "Laboratorio de materiales",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 33,
+      "codigo": "GAS-006",
+      "nombre": "Dióxido de carbono",
+      "categoria": "GAS",
+      "ubicacion": "Laboratorio de fermentación",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 34,
+      "codigo": "GAS-007",
+      "nombre": "Ozono",
+      "categoria": "GAS",
+      "ubicacion": "Laboratorio de tratamiento de agua",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 35,
+      "codigo": "GAS-008",
+      "nombre": "Dióxido de azufre",
+      "categoria": "GAS",
+      "ubicacion": "Área de calderas",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 36,
+      "codigo": "WQ-006",
+      "nombre": "Potencial de oxidación-reducción",
+      "categoria": "AGUA",
+      "ubicacion": "Planta de tratamiento",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 37,
+      "codigo": "WQ-007",
+      "nombre": "Cloro residual",
+      "categoria": "AGUA",
+      "ubicacion": "Tanque de agua potable",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 38,
+      "codigo": "WQ-008",
+      "nombre": "Salinidad",
+      "categoria": "AGUA",
+      "ubicacion": "Laboratorio de aguas",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 39,
+      "codigo": "ENV-003",
+      "nombre": "Estación de viento",
+      "categoria": "AMBIENTE",
+      "ubicacion": "Azotea",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    },
+    {
+      "id": 40,
+      "codigo": "ENV-004",
+      "nombre": "Estación de lluvia",
+      "categoria": "AMBIENTE",
+      "ubicacion": "Jardín meteorológico",
+      "activo": true,
+      "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+    }
+  ]
+}

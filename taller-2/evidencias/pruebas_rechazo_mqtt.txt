@@ -1,0 +1,72 @@
+Mediciones con timestamp 2000-01-01T00:00:00Z ANTES: 0
+
+    registro -> WARNING [RECHAZADO] Sensor inexistente: 'GAS-999' no esta en la tabla sensores | payload={"sensor_id": "GAS-999", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+3. Sensor inexistente
+Entrada : {"sensor_id": "GAS-999", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Sensor inexistente: 'GAS-999' no esta en la tabla sensores
+    registro -> WARNING [RECHAZADO] Unidad incorrecta en 'temperature': llego 'F' y se esperaba 'C' | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "F"}}}
+================================================================================
+4. Unidad incorrecta
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "F"}}}
+Guardado: NO (rechazado)
+Motivo  : Unidad incorrecta en 'temperature': llego 'F' y se esperaba 'C'
+    registro -> WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": "800.5", "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+5. Tipo de dato incorrecto (valor como texto)
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": "800.5", "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Error de estructura/tipo (Pydantic): measurements.co2.value: Input should be a valid number
+    registro -> WARNING [RECHAZADO] Magnitud incorrecta: 'humidity' no esta configurada para GAS-006 | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "humidity": {"value": 50, "unit": "%"}}}
+================================================================================
+6. Magnitud incorrecta
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "humidity": {"value": 50, "unit": "%"}}}
+Guardado: NO (rechazado)
+Motivo  : Magnitud incorrecta: 'humidity' no esta configurada para GAS-006
+    registro -> WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): timestamp: Value error, '2026-13-45T25:61:00Z' no es una fecha ISO 8601 valida | payload={"sensor_id": "GAS-006", "timestamp": "2026-13-45T25:61:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+7a. Timestamp invalido (fecha imposible)
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2026-13-45T25:61:00Z", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Error de estructura/tipo (Pydantic): timestamp: Value error, '2026-13-45T25:61:00Z' no es una fecha ISO 8601 valida
+    registro -> WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): timestamp: Value error, 'ayer en la tarde' no es una fecha ISO 8601 valida | payload={"sensor_id": "GAS-006", "timestamp": "ayer en la tarde", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+7b. Timestamp invalido (texto)
+Entrada : {"sensor_id": "GAS-006", "timestamp": "ayer en la tarde", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Error de estructura/tipo (Pydantic): timestamp: Value error, 'ayer en la tarde' no es una fecha ISO 8601 valida
+    registro -> WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): timestamp: Value error, el timestamp debe estar en UTC (terminar en 'Z' o '+00:00') | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+7c. Timestamp sin zona horaria UTC
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00", "measurements": {"co2": {"value": 800.5, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Error de estructura/tipo (Pydantic): timestamp: Value error, el timestamp debe estar en UTC (terminar en 'Z' o '+00:00')
+    registro -> WARNING [RECHAZADO] Valor fuera de rango en 'co2': 9000.0 no esta entre 300.0000 y 5000.0000 | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 9000, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+================================================================================
+Extra: valor fuera de rango
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co2": {"value": 9000, "unit": "ppm"}, "temperature": {"value": 24.6, "unit": "C"}}}
+Guardado: NO (rechazado)
+Motivo  : Valor fuera de rango en 'co2': 9000.0 no esta entre 300.0000 y 5000.0000
+    registro -> WARNING [RECHAZADO] Error de estructura/tipo (Pydantic): measurements: Field required | payload={"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z"}
+================================================================================
+Extra: falta un campo obligatorio
+Entrada : {"sensor_id": "GAS-006", "timestamp": "2000-01-01T00:00:00Z"}
+Guardado: NO (rechazado)
+Motivo  : Error de estructura/tipo (Pydantic): measurements: Field required
+    registro -> WARNING [RECHAZADO] El sensor_id 'GAS-001' no corresponde al topico asignado (GAS-006) | payload={"sensor_id": "GAS-001", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co": {"value": 10, "unit": "ppm"}}}
+================================================================================
+Extra: sensor de otro grupo en nuestro topico
+Entrada : {"sensor_id": "GAS-001", "timestamp": "2000-01-01T00:00:00Z", "measurements": {"co": {"value": 10, "unit": "ppm"}}}
+Guardado: NO (rechazado)
+Motivo  : El sensor_id 'GAS-001' no corresponde al topico asignado (GAS-006)
+    registro -> WARNING [RECHAZADO] El mensaje no es un JSON valido: Expecting value: line 1 column 39 (char 38) | payload={"sensor_id": "GAS-006", "timestamp": 
+================================================================================
+Extra: JSON roto
+Entrada : {"sensor_id": "GAS-006", "timestamp": 
+Guardado: NO (rechazado)
+Motivo  : El mensaje no es un JSON valido: Expecting value: line 1 column 39 (char 38)
+================================================================================
+
+Mediciones con timestamp 2000-01-01T00:00:00Z DESPUES: 0
+OK: ningun mensaje invalido se guardo

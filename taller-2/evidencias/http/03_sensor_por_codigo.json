@@ -1,0 +1,14 @@
+{
+  "prueba": "Sensor por codigo",
+  "url": "http://127.0.0.1:8000/sensores/por-codigo/GAS-006",
+  "codigo_http": 200,
+  "respuesta": {
+    "id": 33,
+    "codigo": "GAS-006",
+    "nombre": "Dióxido de carbono",
+    "categoria": "GAS",
+    "ubicacion": "Laboratorio de fermentación",
+    "activo": true,
+    "fecha_registro": "2026-10-09 08:26:04 (UTC-05:00)"
+  }
+}

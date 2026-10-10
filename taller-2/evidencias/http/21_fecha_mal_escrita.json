@@ -1,0 +1,21 @@
+{
+  "prueba": "desde con formato invalido",
+  "url": "http://127.0.0.1:8000/sensores/33/mediciones?desde=ayer",
+  "codigo_http": 422,
+  "respuesta": {
+    "detail": [
+      {
+        "type": "datetime_from_date_parsing",
+        "loc": [
+          "query",
+          "desde"
+        ],
+        "msg": "Input should be a valid datetime or date, input is too short",
+        "input": "ayer",
+        "ctx": {
+          "error": "input is too short"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "prueba": "Ultima medicion",
+  "url": "http://127.0.0.1:8000/sensores/33/ultima-medicion",
+  "codigo_http": 200,
+  "respuesta": [
+    {
+      "id": 112623,
+      "sensor_magnitud_id": 87,
+      "magnitud": "temperature",
+      "unidad": "C",
+      "valor": 23.55,
+      "timestamp_utc": "2026-10-10T20:13:26Z",
+      "timestamp_colombia": "2026-10-10 15:13:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 15:13:26 (UTC-05:00)"
+    },
+    {
+      "id": 112622,
+      "sensor_magnitud_id": 88,
+      "magnitud": "co2",
+      "unidad": "ppm",
+      "valor": 1430.68,
+      "timestamp_utc": "2026-10-10T20:13:26Z",
+      "timestamp_colombia": "2026-10-10 15:13:26 (UTC-05:00)",
+      "fecha_recepcion_colombia": "2026-10-10 15:13:26 (UTC-05:00)"
+    }
+  ]
+}
